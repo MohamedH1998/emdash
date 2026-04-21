@@ -231,6 +231,12 @@ export function injectCoreRoutes(injectRoute: InjectRoute): void {
 		entrypoint: resolveRoute("api/import/wordpress-plugin/callback.ts"),
 	});
 
+	// Contentful import routes
+	injectRoute({
+		pattern: "/_emdash/api/import/contentful/execute",
+		entrypoint: resolveRoute("api/import/contentful/execute.ts"),
+	});
+
 	// Schema API routes
 	injectRoute({
 		pattern: "/_emdash/api/schema",
