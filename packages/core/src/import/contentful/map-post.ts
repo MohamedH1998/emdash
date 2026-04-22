@@ -139,9 +139,7 @@ export function mapPost(
 }
 
 /** Normalize a Contentful link field to an array. Handles single objects, arrays, and nullish. */
-function normalizeLinks(
-	value: unknown,
-): Array<{ sys: { id: string } }> {
+function normalizeLinks(value: unknown): Array<{ sys: { id: string } }> {
 	if (!value) return [];
 	if (Array.isArray(value)) return value as Array<{ sys: { id: string } }>;
 	// Single link object (e.g. fields.author: { sys: { id: "..." } })

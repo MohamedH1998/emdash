@@ -1,14 +1,13 @@
+import { Role } from "@emdash-cms/auth";
 import { afterEach, beforeEach, describe, expect, it } from "vitest";
 
-import { Role } from "@emdash-cms/auth";
-
-import { BylineRepository } from "../../../src/database/repositories/byline.js";
 import { handleContentCreate } from "../../../src/api/handlers/content.js";
 import { handleContentUpdate } from "../../../src/api/handlers/content.js";
 import { POST } from "../../../src/astro/routes/api/import/contentful/execute.js";
+import type { EmDashManifest } from "../../../src/astro/types.js";
+import { BylineRepository } from "../../../src/database/repositories/byline.js";
 import { ContentRepository } from "../../../src/database/repositories/content.js";
 import { SchemaRegistry } from "../../../src/schema/registry.js";
-import type { EmDashManifest } from "../../../src/astro/types.js";
 import { setupTestDatabase, teardownTestDatabase } from "../../utils/test-db.js";
 
 describe("Contentful import execute route", () => {
@@ -124,8 +123,10 @@ describe("Contentful import execute route", () => {
 			locals: {
 				emdash: {
 					db,
-					handleContentCreate: (collection: string, body: Parameters<typeof handleContentCreate>[2]) =>
-						handleContentCreate(db, collection, body),
+					handleContentCreate: (
+						collection: string,
+						body: Parameters<typeof handleContentCreate>[2],
+					) => handleContentCreate(db, collection, body),
 				},
 				emdashManifest: manifest,
 				user: { id: "admin", role: Role.ADMIN },
@@ -255,8 +256,10 @@ describe("Contentful import execute route", () => {
 			locals: {
 				emdash: {
 					db,
-					handleContentCreate: (collection: string, body: Parameters<typeof handleContentCreate>[2]) =>
-						handleContentCreate(db, collection, body),
+					handleContentCreate: (
+						collection: string,
+						body: Parameters<typeof handleContentCreate>[2],
+					) => handleContentCreate(db, collection, body),
 				},
 				emdashManifest: manifest,
 				user: { id: "admin", role: Role.ADMIN },
@@ -354,8 +357,10 @@ describe("Contentful import execute route", () => {
 			locals: {
 				emdash: {
 					db,
-					handleContentCreate: (collection: string, body: Parameters<typeof handleContentCreate>[2]) =>
-						handleContentCreate(db, collection, body),
+					handleContentCreate: (
+						collection: string,
+						body: Parameters<typeof handleContentCreate>[2],
+					) => handleContentCreate(db, collection, body),
 					handleContentUpdate: (
 						collection: string,
 						id: string,
@@ -497,8 +502,10 @@ describe("Contentful import execute route", () => {
 			locals: {
 				emdash: {
 					db,
-					handleContentCreate: (collection: string, body: Parameters<typeof handleContentCreate>[2]) =>
-						handleContentCreate(db, collection, body),
+					handleContentCreate: (
+						collection: string,
+						body: Parameters<typeof handleContentCreate>[2],
+					) => handleContentCreate(db, collection, body),
 					handleContentUpdate: (
 						collection: string,
 						id: string,
@@ -645,8 +652,10 @@ describe("Contentful import execute route", () => {
 			locals: {
 				emdash: {
 					db,
-					handleContentCreate: (collection: string, body: Parameters<typeof handleContentCreate>[2]) =>
-						handleContentCreate(db, collection, body),
+					handleContentCreate: (
+						collection: string,
+						body: Parameters<typeof handleContentCreate>[2],
+					) => handleContentCreate(db, collection, body),
 					handleContentUpdate: (
 						collection: string,
 						id: string,
@@ -744,8 +753,10 @@ describe("Contentful import execute route", () => {
 			locals: {
 				emdash: {
 					db,
-					handleContentCreate: (collection: string, body: Parameters<typeof handleContentCreate>[2]) =>
-						handleContentCreate(db, collection, body),
+					handleContentCreate: (
+						collection: string,
+						body: Parameters<typeof handleContentCreate>[2],
+					) => handleContentCreate(db, collection, body),
 				},
 				emdashManifest: manifest,
 				user: { id: "admin", role: Role.ADMIN },

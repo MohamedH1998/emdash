@@ -292,9 +292,7 @@ async function executeContentfulImport(
 				result.posts.created++;
 
 				if (mapped.tagSlugs.length > 0) {
-					const responseData = createResult.data as
-						| { item?: { id?: string } }
-						| undefined;
+					const responseData = createResult.data as { item?: { id?: string } } | undefined;
 					const postId = responseData?.item?.id;
 					if (postId) {
 						const termIds: string[] = [];
