@@ -483,6 +483,7 @@ export async function handleContentUpdate(
 		bylines?: ContentBylineInput[];
 		_rev?: string;
 		seo?: ContentSeoInput;
+		publishedAt?: string | null;
 	},
 ): Promise<ApiResult<ContentResponse>> {
 	try {
@@ -542,6 +543,7 @@ export async function handleContentUpdate(
 				slug: body.slug,
 				status: body.status,
 				authorId: body.authorId,
+				publishedAt: body.publishedAt,
 			});
 
 			if (body.bylines !== undefined) {

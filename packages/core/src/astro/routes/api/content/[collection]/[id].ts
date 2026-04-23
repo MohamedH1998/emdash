@@ -88,6 +88,15 @@ export const PUT: APIRoute = async ({ params, request, locals, cache }) => {
 	const editDenied = requireOwnerPerm(user, authorId, "content:edit_own", "content:edit_any");
 	if (editDenied) return editDenied;
 
+	// Only EDITOR+ can write publishedAt directly — incl. clearing to null.
+	if (body.publishedAt !== undefined && !hasPermission(user, "content:publish_any" as Permission)) {
+		return apiError(
+			"FORBIDDEN",
+			"Writing publishedAt requires content:publish_any permission",
+			403,
+		);
+	}
+
 	// Use the resolved ID (handles slug → ID resolution)
 	const resolvedId = typeof existingItem?.id === "string" ? existingItem.id : id;
 
