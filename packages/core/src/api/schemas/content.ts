@@ -29,7 +29,7 @@ export const contentListQuery = cursorPaginationQuery
 
 /** ISO 8601 datetime for `publishedAt` / `createdAt`. Routes gate writes behind `content:publish_any`. */
 const contentDateOverride = z.iso
-	.datetime({ offset: true, error: "must be an ISO 8601 datetime" })
+	.datetime({ offset: true, message: "must be an ISO 8601 datetime" })
 	.nullish();
 
 export const contentCreateBody = z
