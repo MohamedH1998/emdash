@@ -5,7 +5,7 @@
  * POST /_emdash/api/content/{collection} - Create content
  */
 
-import { hasPermission, type Permission } from "@emdash-cms/auth";
+import { hasPermission } from "@emdash-cms/auth";
 import type { APIRoute } from "astro";
 
 import { requirePerm, requireOwnerPerm } from "#api/authorize.js";
@@ -81,7 +81,7 @@ export const POST: APIRoute = async ({ params, request, locals, cache }) => {
 
 	// Only EDITOR+ can write publishedAt / createdAt directly — incl. clearing to null.
 	const hasDateOverride = body.publishedAt !== undefined || body.createdAt !== undefined;
-	if (hasDateOverride && !hasPermission(user, "content:publish_any" as Permission)) {
+	if (hasDateOverride && !hasPermission(user, "content:publish_any")) {
 		return apiError(
 			"FORBIDDEN",
 			"Writing publishedAt or createdAt requires content:publish_any permission",

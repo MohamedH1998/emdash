@@ -6,7 +6,7 @@
  * DELETE /_emdash/api/content/{collection}/{id} - Delete content
  */
 
-import { hasPermission, type Permission } from "@emdash-cms/auth";
+import { hasPermission } from "@emdash-cms/auth";
 import type { APIRoute } from "astro";
 
 import { requirePerm, requireOwnerPerm } from "#api/authorize.js";
@@ -89,7 +89,7 @@ export const PUT: APIRoute = async ({ params, request, locals, cache }) => {
 	if (editDenied) return editDenied;
 
 	// Only EDITOR+ can write publishedAt directly — incl. clearing to null.
-	if (body.publishedAt !== undefined && !hasPermission(user, "content:publish_any" as Permission)) {
+	if (body.publishedAt !== undefined && !hasPermission(user, "content:publish_any")) {
 		return apiError(
 			"FORBIDDEN",
 			"Writing publishedAt requires content:publish_any permission",
@@ -102,7 +102,7 @@ export const PUT: APIRoute = async ({ params, request, locals, cache }) => {
 
 	// Only allow authorId changes if user has content:edit_any permission (editor+)
 	const canChangeAuthor =
-		body.authorId !== undefined && user && hasPermission(user, "content:edit_any" as Permission);
+		body.authorId !== undefined && user && hasPermission(user, "content:edit_any");
 	const updateBody = canChangeAuthor ? body : { ...body, authorId: undefined };
 
 	// Pass _rev through for optimistic concurrency validation
