@@ -77,6 +77,23 @@ export {
 	fetchPluginTaxonomies,
 } from "./sources/wordpress-plugin.js";
 
+// Contentful import
+export {
+	parseContentfulExport,
+	mapTag as mapContentfulTag,
+	mapAuthor as mapContentfulAuthor,
+	mapPost as mapContentfulPost,
+	flattenLocaleList,
+} from "./contentful/index.js";
+
+export type {
+	RawContentfulEntry,
+	ParsedContentfulExport,
+	ContentfulTagTerm,
+	MappedAuthor as MappedContentfulAuthor,
+	MappedPost as MappedContentfulPost,
+} from "./contentful/index.js";
+
 // Auto-register built-in sources
 import { registerSource } from "./registry.js";
 import { wordpressPluginSource } from "./sources/wordpress-plugin.js";
