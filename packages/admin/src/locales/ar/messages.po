@@ -17,7 +17,7 @@ msgstr ""
 "Language: \n"
 "Plural-Forms: \n"
 
-#: packages/admin/src/components/ContentEditor.tsx:962
+#: packages/admin/src/components/ContentEditor.tsx:958
 #: packages/admin/src/components/LocaleSwitcher.tsx:72
 msgid " (default)"
 msgstr " الافتراضي"
@@ -58,17 +58,17 @@ msgstr "(مع منفذ التطوير الخاص بك)."
 #. placeholder {0}: items.length
 #. placeholder {0}: orphan.rowCount
 #: packages/admin/src/components/ContentTypeList.tsx:69
-#: packages/admin/src/components/RepeaterField.tsx:131
+#: packages/admin/src/components/RepeaterField.tsx:146
 msgid "{0, plural, one {(# item)} other {(# items)}}"
 msgstr "{0, plural, few {(# عناصر)} many {(# عنصرًا)}} other {(# عنصر)}}"
 
 #. placeholder {0}: seedInfo.collections
-#: packages/admin/src/components/SetupWizard.tsx:181
+#: packages/admin/src/components/SetupWizard.tsx:185
 msgid "{0, plural, one {# collection} other {# collections}}"
 msgstr "{0, plural, few {# مجموعات} many {# مجموعةً} other {# مجموعة}}"
 
 #. placeholder {0}: comments.length
-#: packages/admin/src/components/comments/CommentInbox.tsx:351
+#: packages/admin/src/components/comments/CommentInbox.tsx:344
 msgid "{0, plural, one {# comment} other {# comments}}"
 msgstr "{0, plural, few {# تعليقات} many {# تعليقًا} other {# تعليق}}"
 
@@ -83,7 +83,7 @@ msgid "{0, plural, one {# content item imported} other {# content items imported
 msgstr "{0, plural, few {# عناصر محتوى تم استيرادها} other {# عنصر محتوى تم استيراده}}"
 
 #. placeholder {0}: filteredItems.length
-#: packages/admin/src/components/ContentList.tsx:251
+#: packages/admin/src/components/ContentList.tsx:291
 msgid "{0, plural, one {# item matching \"{searchQuery}\"} other {# items matching \"{searchQuery}\"}}"
 msgstr "{0, plural, few {# عناصر مطابقة لـ \"{searchQuery}\"} many {# عنصرًا مطابقًا لـ \"{searchQuery}\"} other {# عنصر مطابق لـ \"{searchQuery}\"}}"
 
@@ -128,7 +128,7 @@ msgid "{0, plural, one {# redirect is part of a loop.} other {# redirects are pa
 msgstr "{0, plural, few {يوجد # إعادات توجيه تدور في حلقة لا منتهية.} other {يوجد # إعادة توجيه تدور في حلقة لا منتهية.}}"
 
 #. placeholder {0}: selected.size
-#: packages/admin/src/components/comments/CommentInbox.tsx:235
+#: packages/admin/src/components/comments/CommentInbox.tsx:228
 msgid "{0, plural, one {# selected} other {# selected}}"
 msgstr "{0, plural, other {تم تحديد #}}"
 
@@ -145,7 +145,7 @@ msgstr "{0, plural, few {# مستخدمين} many {# مستخدمًا} other {# 
 #. placeholder {0}: filteredItems.length
 #. placeholder {1}: hasMore ? "+" : ""
 #. placeholder {2}: hasMore ? "+" : ""
-#: packages/admin/src/components/ContentList.tsx:255
+#: packages/admin/src/components/ContentList.tsx:295
 msgid "{0, plural, one {#{1} item} other {#{2} items}}"
 msgstr "{0, plural, one {#{1} عنصر} other {#{2} عناصر}}"
 
@@ -165,7 +165,7 @@ msgid "{0} has been removed"
 msgstr "تم إزالة {0}"
 
 #. placeholder {0}: plugin.installCount.toLocaleString()
-#: packages/admin/src/components/MarketplacePluginDetail.tsx:213
+#: packages/admin/src/components/MarketplacePluginDetail.tsx:204
 msgid "{0} installs"
 msgstr "{0} عمليات تثبيت"
 
@@ -220,7 +220,7 @@ msgid "{0}{1}"
 msgstr "{0}{1}"
 
 #. placeholder {0}: draft.description.length
-#: packages/admin/src/components/SeoPanel.tsx:164
+#: packages/admin/src/components/SeoPanel.tsx:165
 msgid "{0}/160 characters"
 msgstr "{0}/160 حرف"
 
@@ -272,7 +272,7 @@ msgstr "{pluginName} تطلب صلاحيات إضافية:"
 msgid "{pluginName} requires the following permissions:"
 msgstr "{pluginName} تتطلب الصلاحيات التالية:"
 
-#: packages/admin/src/components/comments/CommentInbox.tsx:156
+#: packages/admin/src/components/comments/CommentInbox.tsx:149
 msgid "{total, plural, one {# total} other {# total}}"
 msgstr "{total, plural, other {إجمالي #}}"
 
@@ -319,13 +319,14 @@ msgstr "• يتم رفعها إلى مساحة تخزين وسائط EmDash ا�
 msgid "• URLs in your content are updated automatically"
 msgstr "• يتم تحديث الروابط في محتواك تلقائيًا"
 
-#: packages/admin/src/components/SetupWizard.tsx:250
-#: packages/admin/src/components/SetupWizard.tsx:310
+#: packages/admin/src/components/SetupWizard.tsx:254
+#: packages/admin/src/components/SetupWizard.tsx:306
+#: packages/admin/src/components/SetupWizard.tsx:361
 #: packages/admin/src/components/WordPressImport.tsx:1431
 msgid "← Back"
 msgstr "← رجوع"
 
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:44
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:36
 msgid "1 year"
 msgstr "1 سنة"
 
@@ -353,7 +354,7 @@ msgstr "3. قم بتمرير الصفحة إلى \"كلمات مرور التط�
 msgid "3. Select \"All content\""
 msgstr "3. قم بتحديد \"كل المحتوى\""
 
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:42
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:34
 msgid "30 days"
 msgstr "30 يوم"
 
@@ -393,15 +394,15 @@ msgstr "5. انسخ كلمة المرور التي تم توليدها"
 msgid "5. Upload the file here"
 msgstr "5. قم برفع الملف هنا"
 
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:41
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:33
 msgid "7 days"
 msgstr "7 أيام"
 
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:43
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:35
 msgid "90 days"
 msgstr "90 يوم"
 
-#: packages/admin/src/components/settings/GeneralSettings.tsx:165
+#: packages/admin/src/components/settings/GeneralSettings.tsx:159
 msgid "A short description of your site"
 msgstr "وصف مختصر لموقعك"
 
@@ -413,7 +414,7 @@ msgstr "قبول وتثبيت"
 msgid "Accept & Update"
 msgstr "قبول وتحديث"
 
-#: packages/admin/src/components/SetupWizard.tsx:332
+#: packages/admin/src/components/SetupWizard.tsx:383
 msgid "Account"
 msgstr "الحساب"
 
@@ -425,9 +426,9 @@ msgstr "الحساب موجود"
 msgid "Account Info"
 msgstr "معلومات الحساب"
 
-#: packages/admin/src/components/comments/CommentInbox.tsx:306
-#: packages/admin/src/components/ContentList.tsx:204
-#: packages/admin/src/components/ContentList.tsx:309
+#: packages/admin/src/components/comments/CommentInbox.tsx:299
+#: packages/admin/src/components/ContentList.tsx:235
+#: packages/admin/src/components/ContentList.tsx:349
 #: packages/admin/src/components/ContentTypeList.tsx:106
 #: packages/admin/src/components/MediaLibrary.tsx:419
 #: packages/admin/src/components/TaxonomyManager.tsx:619
@@ -438,7 +439,7 @@ msgstr "الإجراءات"
 msgid "Active"
 msgstr "نشط"
 
-#: packages/admin/src/components/ContentEditor.tsx:1714
+#: packages/admin/src/components/ContentEditor.tsx:1715
 #: packages/admin/src/components/MenuEditor.tsx:297
 #: packages/admin/src/components/TaxonomyManager.tsx:214
 #: packages/admin/src/components/TaxonomyManager.tsx:610
@@ -446,11 +447,16 @@ msgstr "نشط"
 msgid "Add"
 msgstr "إضافة"
 
+#. placeholder {0}: field.item_label
+#: packages/admin/src/components/PortableTextEditor.tsx:1308
+msgid "Add {0}"
+msgstr ""
+
 #: packages/admin/src/components/TaxonomySidebar.tsx:235
 msgid "Add {label}"
 msgstr "إضافة {label}"
 
-#: packages/admin/src/components/settings/SecuritySettings.tsx:208
+#: packages/admin/src/components/settings/SecuritySettings.tsx:209
 msgid "Add a new passkey"
 msgstr "إضافة مفتاح مرور جديد"
 
@@ -487,11 +493,15 @@ msgstr "إضافة حقل"
 msgid "Add fields"
 msgstr "إضافة حقول"
 
-#: packages/admin/src/components/RepeaterField.tsx:153
+#: packages/admin/src/components/RepeaterField.tsx:168
 msgid "Add First Item"
 msgstr "إضافة أول عنصر"
 
-#: packages/admin/src/components/RepeaterField.tsx:137
+#: packages/admin/src/components/PortableTextEditor.tsx:1308
+msgid "Add item"
+msgstr ""
+
+#: packages/admin/src/components/RepeaterField.tsx:152
 msgid "Add Item"
 msgstr "إضافة عنصر"
 
@@ -499,7 +509,7 @@ msgstr "إضافة عنصر"
 msgid "Add links to build your navigation menu"
 msgstr "أضف روابط لتصميم قائمة التنقل الخاصة بك"
 
-#: packages/admin/src/components/ContentList.tsx:140
+#: packages/admin/src/components/ContentList.tsx:159
 msgid "Add New"
 msgstr "إضافة جديد"
 
@@ -508,11 +518,11 @@ msgstr "إضافة جديد"
 msgid "Add new {0}"
 msgstr ""
 
-#: packages/admin/src/components/SeoPanel.tsx:187
+#: packages/admin/src/components/SeoPanel.tsx:189
 msgid "Add noindex meta tag"
 msgstr "إضافة علامة noindex الذاتية"
 
-#: packages/admin/src/components/settings/SecuritySettings.tsx:229
+#: packages/admin/src/components/settings/SecuritySettings.tsx:230
 msgid "Add Passkey"
 msgstr "إضافة مفتاح مرور"
 
@@ -528,7 +538,7 @@ msgstr "إضافة حقل فرعي"
 msgid "Add tags..."
 msgstr "إضافة وسوم..."
 
-#: packages/admin/src/components/settings/SocialSettings.tsx:124
+#: packages/admin/src/components/settings/SocialSettings.tsx:125
 msgid "Add your social media profiles. These are available to your site's theme and can be displayed in headers, footers, or author bios."
 msgstr "أضف ملفاتك الشخصية في وسائل التواصل الاجتماعي. ستكون متاحة لمظهر موقعك ويمكن عرضها في الترويسات والتذييلات أو سيرة المؤلف."
 
@@ -541,13 +551,13 @@ msgstr "جاري الإضافة..."
 msgid "Additional data to import."
 msgstr "بيانات إضافية للاستيراد."
 
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:84
-#: packages/admin/src/components/Sidebar.tsx:426
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:96
+#: packages/admin/src/components/Sidebar.tsx:438
 #: packages/admin/src/components/users/roleDefinitions.ts:42
 msgid "Admin"
 msgstr "مسؤول"
 
-#: packages/admin/src/components/Sidebar.tsx:373
+#: packages/admin/src/components/Sidebar.tsx:378
 msgid "Admin navigation"
 msgstr "تنقل لوحة الإدارة"
 
@@ -559,7 +569,7 @@ msgstr "مسؤول"
 msgid "After send:"
 msgstr "بعد الإرسال:"
 
-#: packages/admin/src/components/ContentList.tsx:167
+#: packages/admin/src/components/ContentList.tsx:186
 msgid "All"
 msgstr "الكل"
 
@@ -567,7 +577,7 @@ msgstr "الكل"
 msgid "All capabilities"
 msgstr "جميع الصلاحيات"
 
-#: packages/admin/src/components/comments/CommentInbox.tsx:140
+#: packages/admin/src/components/comments/CommentInbox.tsx:133
 msgid "All collections"
 msgstr "جميع المجموعات"
 
@@ -632,7 +642,7 @@ msgstr "كبديل عن ذلك، يمكنك التصدير من WordPress (ال�
 #: packages/admin/src/components/PluginManager.tsx:109
 #: packages/admin/src/components/TaxonomySidebar.tsx:318
 #: packages/admin/src/components/ThemeMarketplaceBrowse.tsx:116
-#: packages/admin/src/router.tsx:1520
+#: packages/admin/src/router.tsx:1531
 msgid "An error occurred"
 msgstr "حدث خطأ"
 
@@ -645,7 +655,7 @@ msgid "Analyzing WordPress site..."
 msgstr "جاري تحليل موقع WordPress..."
 
 #: packages/admin/src/components/Settings.tsx:109
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:176
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:188
 msgid "API Tokens"
 msgstr "رموز API"
 
@@ -654,8 +664,8 @@ msgid "Application Password"
 msgstr "كلمة مرور التطبيق"
 
 #: packages/admin/src/components/comments/CommentDetail.tsx:148
-#: packages/admin/src/components/comments/CommentInbox.tsx:244
-#: packages/admin/src/components/comments/CommentInbox.tsx:496
+#: packages/admin/src/components/comments/CommentInbox.tsx:237
+#: packages/admin/src/components/comments/CommentInbox.tsx:489
 msgid "Approve"
 msgstr "موافقة"
 
@@ -663,7 +673,7 @@ msgstr "موافقة"
 msgid "approved"
 msgstr "موافق عليه"
 
-#: packages/admin/src/components/comments/CommentInbox.tsx:209
+#: packages/admin/src/components/comments/CommentInbox.tsx:202
 msgid "Approved"
 msgstr "موافق عليه"
 
@@ -671,7 +681,7 @@ msgstr "موافق عليه"
 msgid "Arbitrary JSON data"
 msgstr "بيانات JSON غير مقيدة"
 
-#: packages/admin/src/components/ContentList.tsx:557
+#: packages/admin/src/components/ContentList.tsx:672
 msgid "archived"
 msgstr "مؤرشف"
 
@@ -698,12 +708,12 @@ msgstr "قم بتعيين مؤلفي WordPress إلى مستخدمي EmDash. س�
 msgid "Authentication error: {0}"
 msgstr "خطأ في المصادقة: {0}"
 
-#: packages/admin/src/components/LoginPage.tsx:253
+#: packages/admin/src/components/LoginPage.tsx:195
 msgid "Authentication error: {error}"
 msgstr "خطأ في المصادقة: {error}"
 
 #. placeholder {0}: manifest?.authMode
-#: packages/admin/src/components/settings/SecuritySettings.tsx:133
+#: packages/admin/src/components/settings/SecuritySettings.tsx:134
 msgid "Authentication is managed by an external provider ({0}). Passkey settings are not available when using external authentication."
 msgstr "تتم إدارة المصادقة بواسطة مزود خارجي ({0}). إعدادات مفاتيح المرور غير متاحة عند استخدام المصادقة الخارجية."
 
@@ -712,7 +722,7 @@ msgid "Authentication was cancelled or timed out. Please try again."
 msgstr "تم إلغاء المصادقة أو انتهت مهلتها. يرجى المحاولة مجددًا."
 
 #: packages/admin/src/components/comments/CommentDetail.tsx:77
-#: packages/admin/src/components/comments/CommentInbox.tsx:294
+#: packages/admin/src/components/comments/CommentInbox.tsx:287
 #: packages/admin/src/components/users/roleDefinitions.ts:30
 #: packages/admin/src/components/WelcomeModal.tsx:27
 msgid "Author"
@@ -764,18 +774,19 @@ msgstr "المزودون المتاحون"
 msgid "Back"
 msgstr "رجوع"
 
-#: packages/admin/src/components/ContentEditor.tsx:543
+#: packages/admin/src/components/ContentEditor.tsx:539
 msgid "Back to {collectionLabel} list"
 msgstr "العودة إلى قائمة {collectionLabel}"
 
-#: packages/admin/src/components/LoginPage.tsx:174
-#: packages/admin/src/components/LoginPage.tsx:210
+#: packages/admin/src/components/LoginPage.tsx:117
+#: packages/admin/src/components/LoginPage.tsx:153
+#: packages/admin/src/components/LoginPage.tsx:311
 #: packages/admin/src/components/SignupPage.tsx:280
 msgid "Back to login"
 msgstr "العودة إلى تسجيل الدخول"
 
-#: packages/admin/src/components/MarketplacePluginDetail.tsx:125
-#: packages/admin/src/components/MarketplacePluginDetail.tsx:402
+#: packages/admin/src/components/MarketplacePluginDetail.tsx:116
+#: packages/admin/src/components/MarketplacePluginDetail.tsx:393
 msgid "Back to marketplace"
 msgstr "العودة إلى السوق"
 
@@ -785,21 +796,21 @@ msgid "Back to sections"
 msgstr "العودة إلى الأقسام"
 
 #: packages/admin/src/components/settings/AllowedDomainsSettings.tsx:168
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:171
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:183
 #: packages/admin/src/components/settings/EmailSettings.tsx:86
 #: packages/admin/src/components/settings/EmailSettings.tsx:105
-#: packages/admin/src/components/settings/GeneralSettings.tsx:107
-#: packages/admin/src/components/settings/GeneralSettings.tsx:125
-#: packages/admin/src/components/settings/SecuritySettings.tsx:104
-#: packages/admin/src/components/settings/SeoSettings.tsx:83
-#: packages/admin/src/components/settings/SeoSettings.tsx:101
-#: packages/admin/src/components/settings/SocialSettings.tsx:77
-#: packages/admin/src/components/settings/SocialSettings.tsx:95
+#: packages/admin/src/components/settings/GeneralSettings.tsx:101
+#: packages/admin/src/components/settings/GeneralSettings.tsx:119
+#: packages/admin/src/components/settings/SecuritySettings.tsx:105
+#: packages/admin/src/components/settings/SeoSettings.tsx:78
+#: packages/admin/src/components/settings/SeoSettings.tsx:96
+#: packages/admin/src/components/settings/SocialSettings.tsx:78
+#: packages/admin/src/components/settings/SocialSettings.tsx:96
 msgid "Back to settings"
 msgstr "العودة إلى الإعدادات"
 
-#: packages/admin/src/components/ThemeMarketplaceDetail.tsx:88
-#: packages/admin/src/components/ThemeMarketplaceDetail.tsx:112
+#: packages/admin/src/components/ThemeMarketplaceDetail.tsx:86
+#: packages/admin/src/components/ThemeMarketplaceDetail.tsx:110
 msgid "Back to Themes"
 msgstr "العودة إلى المظاهر"
 
@@ -807,7 +818,7 @@ msgstr "العودة إلى المظاهر"
 msgid "Before send:"
 msgstr "قبل الإرسال:"
 
-#: packages/admin/src/components/settings/SeoSettings.tsx:146
+#: packages/admin/src/components/settings/SeoSettings.tsx:141
 msgid "Bing Verification"
 msgstr "تحقق Bing"
 
@@ -816,7 +827,7 @@ msgstr "تحقق Bing"
 msgid "Boolean"
 msgstr "منطقي"
 
-#: packages/admin/src/components/SeoPanel.tsx:165
+#: packages/admin/src/components/SeoPanel.tsx:166
 msgid "Brief summary shown below the title in search results"
 msgstr "ملخص مختصر يظهر أسفل العنوان في نتائج البحث"
 
@@ -838,12 +849,12 @@ msgid "Browse themes and preview them with your own content."
 msgstr "تصفح المظاهر وقم بمعاينتها مع محتواك الخاص."
 
 #: packages/admin/src/components/editor/BlockMenu.tsx:101
-#: packages/admin/src/components/PortableTextEditor.tsx:729
+#: packages/admin/src/components/PortableTextEditor.tsx:756
 msgid "Bullet List"
 msgstr "قائمة نقطية"
 
-#: packages/admin/src/components/ContentEditor.tsx:928
-#: packages/admin/src/components/Sidebar.tsx:201
+#: packages/admin/src/components/ContentEditor.tsx:924
+#: packages/admin/src/components/Sidebar.tsx:206
 msgid "Bylines"
 msgstr "أسماء المؤلفين"
 
@@ -865,13 +876,13 @@ msgstr "يمكنه عرض المحتوى"
 
 #: packages/admin/src/components/CapabilityConsentDialog.tsx:139
 #: packages/admin/src/components/ConfirmDialog.tsx:57
-#: packages/admin/src/components/ContentEditor.tsx:636
-#: packages/admin/src/components/ContentEditor.tsx:842
-#: packages/admin/src/components/ContentEditor.tsx:894
-#: packages/admin/src/components/ContentEditor.tsx:1817
-#: packages/admin/src/components/ContentEditor.tsx:1870
-#: packages/admin/src/components/ContentList.tsx:445
-#: packages/admin/src/components/ContentList.tsx:516
+#: packages/admin/src/components/ContentEditor.tsx:632
+#: packages/admin/src/components/ContentEditor.tsx:838
+#: packages/admin/src/components/ContentEditor.tsx:890
+#: packages/admin/src/components/ContentEditor.tsx:1818
+#: packages/admin/src/components/ContentEditor.tsx:1871
+#: packages/admin/src/components/ContentList.tsx:560
+#: packages/admin/src/components/ContentList.tsx:631
 #: packages/admin/src/components/ContentPickerModal.tsx:253
 #: packages/admin/src/components/editor/ImageDetailPanel.tsx:516
 #: packages/admin/src/components/FieldEditor.tsx:645
@@ -886,9 +897,9 @@ msgstr "يمكنه عرض المحتوى"
 #: packages/admin/src/components/Sections.tsx:207
 #: packages/admin/src/components/settings/AllowedDomainsSettings.tsx:318
 #: packages/admin/src/components/settings/AllowedDomainsSettings.tsx:428
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:318
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:446
-#: packages/admin/src/components/settings/SecuritySettings.tsx:210
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:330
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:458
+#: packages/admin/src/components/settings/SecuritySettings.tsx:211
 #: packages/admin/src/components/TaxonomyManager.tsx:304
 #: packages/admin/src/components/TaxonomyManager.tsx:523
 #: packages/admin/src/components/users/InviteUserModal.tsx:200
@@ -904,7 +915,7 @@ msgstr "إلغاء إعادة التسمية"
 msgid "Cannot delete theme sections"
 msgstr "لا يمكن حذف أقسام المظهر"
 
-#: packages/admin/src/components/SeoPanel.tsx:176
+#: packages/admin/src/components/SeoPanel.tsx:178
 msgid "Canonical URL"
 msgstr "الرابط الأساسي"
 
@@ -935,21 +946,21 @@ msgstr "الفئات ({0})"
 msgid "Categories will be imported"
 msgstr "سيتم استيراد الفئات"
 
-#: packages/admin/src/components/ContentEditor.tsx:1574
+#: packages/admin/src/components/ContentEditor.tsx:1575
 #: packages/admin/src/components/FieldEditor.tsx:391
 #: packages/admin/src/components/SeoImageField.tsx:47
 msgid "Change"
 msgstr "تغيير"
 
-#: packages/admin/src/components/settings/GeneralSettings.tsx:237
+#: packages/admin/src/components/settings/GeneralSettings.tsx:231
 msgid "Change Favicon"
 msgstr "تغيير أيقونة المتصفح"
 
-#: packages/admin/src/components/settings/GeneralSettings.tsx:193
+#: packages/admin/src/components/settings/GeneralSettings.tsx:187
 msgid "Change Logo"
 msgstr "تغيير الشعار"
 
-#: packages/admin/src/components/settings/SeoSettings.tsx:137
+#: packages/admin/src/components/settings/SeoSettings.tsx:132
 msgid "Character between page title and site name (e.g., \"My Post | My Site\")"
 msgstr "الحرف بين عنوان الصفحة واسم الموقع (مثال: \"منشوري | موقعي\")"
 
@@ -961,7 +972,7 @@ msgstr "التحقق من التحديثات"
 msgid "Check Site"
 msgstr "فحص الموقع"
 
-#: packages/admin/src/components/LoginPage.tsx:158
+#: packages/admin/src/components/LoginPage.tsx:101
 #: packages/admin/src/components/SignupPage.tsx:129
 #: packages/admin/src/components/SignupPage.tsx:401
 msgid "Check your email"
@@ -975,6 +986,10 @@ msgstr "جاري التحقق من {urlInput}..."
 msgid "Checking authentication..."
 msgstr "جاري التحقق من المصادقة..."
 
+#: packages/admin/src/components/SetupWizard.tsx:317
+msgid "Choose how to sign in"
+msgstr ""
+
 #: packages/admin/src/components/Settings.tsx:130
 msgid "Choose your preferred admin language"
 msgstr "إختر لغة التحكم المفضلة لديك"
@@ -983,7 +998,7 @@ msgstr "إختر لغة التحكم المفضلة لديك"
 msgid "Click the link in the email to continue setting up your account."
 msgstr "اضغط على الرابط في البريد الإلكتروني لمتابعة إعداد حسابك."
 
-#: packages/admin/src/components/LoginPage.tsx:169
+#: packages/admin/src/components/LoginPage.tsx:112
 msgid "Click the link in the email to sign in."
 msgstr "إضغط على الرابط في البريد الإلكتروني لتسجيل الدخول."
 
@@ -998,7 +1013,7 @@ msgstr "إضغط على الرابط في البريد الإلكتروني لت
 #: packages/admin/src/components/FieldEditor.tsx:334
 #: packages/admin/src/components/FieldEditor.tsx:340
 #: packages/admin/src/components/FieldEditor.tsx:344
-#: packages/admin/src/components/MarketplacePluginDetail.tsx:447
+#: packages/admin/src/components/MarketplacePluginDetail.tsx:438
 #: packages/admin/src/components/MediaDetailPanel.tsx:131
 #: packages/admin/src/components/MediaDetailPanel.tsx:133
 #: packages/admin/src/components/MediaPickerModal.tsx:349
@@ -1030,7 +1045,7 @@ msgstr "إضغط على الرابط في البريد الإلكتروني لت
 #: packages/admin/src/components/TaxonomyManager.tsx:437
 #: packages/admin/src/components/TaxonomyManager.tsx:443
 #: packages/admin/src/components/TaxonomyManager.tsx:447
-#: packages/admin/src/components/ThemeMarketplaceDetail.tsx:304
+#: packages/admin/src/components/ThemeMarketplaceDetail.tsx:302
 #: packages/admin/src/components/users/InviteUserModal.tsx:88
 #: packages/admin/src/components/users/InviteUserModal.tsx:94
 #: packages/admin/src/components/users/InviteUserModal.tsx:98
@@ -1048,7 +1063,7 @@ msgid "Code"
 msgstr "كود"
 
 #: packages/admin/src/components/editor/BlockMenu.tsx:93
-#: packages/admin/src/components/PortableTextEditor.tsx:759
+#: packages/admin/src/components/PortableTextEditor.tsx:786
 msgid "Code Block"
 msgstr "كتلة كود"
 
@@ -1081,7 +1096,7 @@ msgid "Comma-separated keywords for search."
 msgstr "كلمات مفتاحية مفصولة بفاصلة للبحث."
 
 #: packages/admin/src/components/comments/CommentDetail.tsx:95
-#: packages/admin/src/components/comments/CommentInbox.tsx:297
+#: packages/admin/src/components/comments/CommentInbox.tsx:290
 msgid "Comment"
 msgstr "تعليق"
 
@@ -1089,8 +1104,8 @@ msgstr "تعليق"
 msgid "Comment Detail"
 msgstr "تفاصيل التعليق"
 
-#: packages/admin/src/components/comments/CommentInbox.tsx:153
-#: packages/admin/src/components/Sidebar.tsx:185
+#: packages/admin/src/components/comments/CommentInbox.tsx:146
+#: packages/admin/src/components/Sidebar.tsx:190
 msgid "Comments"
 msgstr "التعليقات"
 
@@ -1102,7 +1117,7 @@ msgstr "إكمال التسجيل"
 msgid "Configure Field"
 msgstr "تهيئة الحقل"
 
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:308
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:320
 msgid "Confirm"
 msgstr "تأكيد"
 
@@ -1126,15 +1141,15 @@ msgstr "متصل {0}"
 
 #: packages/admin/src/components/AdminCommandPalette.tsx:365
 #: packages/admin/src/components/comments/CommentDetail.tsx:103
-#: packages/admin/src/components/comments/CommentInbox.tsx:300
+#: packages/admin/src/components/comments/CommentInbox.tsx:293
 #: packages/admin/src/components/Dashboard.tsx:164
-#: packages/admin/src/components/PortableTextEditor.tsx:1431
+#: packages/admin/src/components/PortableTextEditor.tsx:1798
 #: packages/admin/src/components/SectionEditor.tsx:174
-#: packages/admin/src/components/Sidebar.tsx:400
+#: packages/admin/src/components/Sidebar.tsx:412
 msgid "Content"
 msgstr "محتوى"
 
-#: packages/admin/src/components/Widgets.tsx:90
+#: packages/admin/src/components/Widgets.tsx:96
 msgid "Content Block"
 msgstr "كتلة محتوى"
 
@@ -1159,7 +1174,7 @@ msgstr "معرف المحتوى:"
 msgid "content items"
 msgstr "عناصر المحتوى"
 
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:54
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:46
 msgid "Content Read"
 msgstr "قراءة المحتوى"
 
@@ -1173,7 +1188,7 @@ msgstr "المحتوى المراد استيراده"
 
 #: packages/admin/src/components/AdminCommandPalette.tsx:185
 #: packages/admin/src/components/ContentTypeList.tsx:39
-#: packages/admin/src/components/Sidebar.tsx:205
+#: packages/admin/src/components/Sidebar.tsx:210
 msgid "Content Types"
 msgstr "أنواع المحتوى"
 
@@ -1181,7 +1196,7 @@ msgstr "أنواع المحتوى"
 msgid "Content was skipped because it already exists"
 msgstr "تم تخطي المحتوى لأنه موجود بالفعل"
 
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:59
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:51
 msgid "Content Write"
 msgstr "كتابة المحتوى"
 
@@ -1189,8 +1204,8 @@ msgstr "كتابة المحتوى"
 msgid "Continue"
 msgstr "متابعة"
 
-#: packages/admin/src/components/SetupWizard.tsx:175
-#: packages/admin/src/components/SetupWizard.tsx:258
+#: packages/admin/src/components/SetupWizard.tsx:179
+#: packages/admin/src/components/SetupWizard.tsx:262
 msgid "Continue →"
 msgstr "متابعة >"
 
@@ -1203,7 +1218,7 @@ msgstr "متابعة الاستيراد"
 msgid "Contributor"
 msgstr "مساهم"
 
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:218
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:230
 #: packages/admin/src/components/users/InviteUserModal.tsx:134
 msgid "Copied to clipboard"
 msgstr "تم النسخ إلى الحافظة"
@@ -1221,11 +1236,11 @@ msgstr "نسخ رابط الدعوة"
 msgid "Copy slug"
 msgstr "نسخ الاسم اللطيف"
 
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:193
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:205
 msgid "Copy this token now — it won't be shown again."
 msgstr "قم بنسخ هذا الرمز الآن — لن يظهر لاحقًا"
 
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:211
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:223
 msgid "Copy token"
 msgstr "نسخ الرمز"
 
@@ -1245,7 +1260,7 @@ msgstr "تعذّر اكتشاف WordPress"
 msgid "Count"
 msgstr "العدد"
 
-#: packages/admin/src/components/ContentEditor.tsx:1841
+#: packages/admin/src/components/ContentEditor.tsx:1842
 #: packages/admin/src/components/MenuList.tsx:146
 #: packages/admin/src/components/Redirects.tsx:185
 #: packages/admin/src/components/Sections.tsx:210
@@ -1253,7 +1268,7 @@ msgstr "العدد"
 msgid "Create"
 msgstr "إنشاء"
 
-#: packages/admin/src/components/PortableTextEditor.tsx:730
+#: packages/admin/src/components/PortableTextEditor.tsx:757
 msgid "Create a bullet list"
 msgstr "إنشاء قائمة نقطية"
 
@@ -1262,7 +1277,7 @@ msgstr "إنشاء قائمة نقطية"
 msgid "Create a new {0}"
 msgstr "إنشاء {0} جديد"
 
-#: packages/admin/src/components/PortableTextEditor.tsx:740
+#: packages/admin/src/components/PortableTextEditor.tsx:767
 msgid "Create a numbered list"
 msgstr "إنشاء قائمة مرقمة"
 
@@ -1274,7 +1289,7 @@ msgstr "إنشاء حساب"
 msgid "Create an account"
 msgstr "إنشاء حساب"
 
-#: packages/admin/src/components/ContentEditor.tsx:1789
+#: packages/admin/src/components/ContentEditor.tsx:1790
 msgid "Create byline"
 msgstr "إنشاء اسم مؤلف"
 
@@ -1287,7 +1302,7 @@ msgstr "إنشاء قائمة"
 msgid "Create New Menu"
 msgstr "إنشاء قائمة جديدة"
 
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:389
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:401
 msgid "Create New Token"
 msgstr "إنشاء رمز جديد"
 
@@ -1295,12 +1310,12 @@ msgstr "إنشاء رمز جديد"
 msgid "Create one in WordPress: Users → Profile → Application Passwords"
 msgstr "أنشئ واحدة في WordPress: المستخدمون → الملف الشخصي → كلمات مرور التطبيق"
 
-#: packages/admin/src/components/SetupWizard.tsx:305
+#: packages/admin/src/components/SetupWizard.tsx:327
 msgid "Create Passkey"
 msgstr "إنشاء مفتاح مرور"
 
 #: packages/admin/src/components/Settings.tsx:110
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:178
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:190
 msgid "Create personal access tokens for programmatic API access"
 msgstr "إنشاء رمز وصول شخصي للوصول إلى API برمجيًا"
 
@@ -1335,12 +1350,12 @@ msgstr "قم بإنشاء أقسام في مكتبة الأقسام لاستخد
 msgid "Create Taxonomy"
 msgstr "إنشاء تصنيف"
 
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:251
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:443
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:263
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:455
 msgid "Create Token"
 msgstr "إنشاء رمز"
 
-#: packages/admin/src/components/SetupWizard.tsx:495
+#: packages/admin/src/components/SetupWizard.tsx:573
 msgid "Create your account"
 msgstr "قم بإنشاء حسابك"
 
@@ -1348,7 +1363,7 @@ msgstr "قم بإنشاء حسابك"
 msgid "Create your first navigation menu to get started"
 msgstr "قم بإنشاء أول قائمة تنقل خاصة بك للبدء"
 
-#: packages/admin/src/components/ContentList.tsx:219
+#: packages/admin/src/components/ContentList.tsx:259
 #: packages/admin/src/components/ContentTypeList.tsx:122
 msgid "Create your first one"
 msgstr "قم بإنشاء أول واحد خاص بك"
@@ -1361,7 +1376,15 @@ msgstr "أنشئ أول قسم محتوى قابل لإعادة الاستخدا
 msgid "Create your passkey"
 msgstr "إنشاء مفتاح مرور خاص بك"
 
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:60
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:82
+msgid "Create, update, and delete navigation menus"
+msgstr ""
+
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:77
+msgid "Create, update, and delete taxonomy terms"
+msgstr ""
+
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:52
 msgid "Create, update, delete content"
 msgstr "إنشاء، تحديث، حذف المحتوى"
 
@@ -1371,17 +1394,17 @@ msgstr "تم الإنشاء"
 
 #. placeholder {0}: new Date(cred.createdAt).toLocaleDateString()
 #. placeholder {0}: new Date(token.createdAt).toLocaleDateString()
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:290
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:302
 #: packages/admin/src/components/users/UserDetail.tsx:260
 msgid "Created {0}"
 msgstr "تم إنشاء {0}"
 
-#: packages/admin/src/components/ContentTypeEditor.tsx:121
+#: packages/admin/src/components/ContentTypeEditor.tsx:114
 msgid "Created At"
 msgstr "تم الإنشاء في"
 
 #. placeholder {0}: new Date(item.createdAt).toLocaleString()
-#: packages/admin/src/components/ContentEditor.tsx:862
+#: packages/admin/src/components/ContentEditor.tsx:858
 msgid "Created: {0}"
 msgstr "تم الإنشاء: {0}"
 
@@ -1389,16 +1412,16 @@ msgstr "تم الإنشاء: {0}"
 msgid "Creating collections and fields..."
 msgstr "جاري إنشاء المجموعات والحقول..."
 
-#: packages/admin/src/components/ContentEditor.tsx:1841
+#: packages/admin/src/components/ContentEditor.tsx:1842
 #: packages/admin/src/components/MenuList.tsx:146
 #: packages/admin/src/components/Redirects.tsx:182
 #: packages/admin/src/components/Sections.tsx:210
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:443
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:455
 #: packages/admin/src/components/TaxonomyManager.tsx:526
 msgid "Creating..."
 msgstr "جاري الإنشاء..."
 
-#: packages/admin/src/components/ContentEditor.tsx:965
+#: packages/admin/src/components/ContentEditor.tsx:961
 msgid "current"
 msgstr "الحالي"
 
@@ -1410,7 +1433,7 @@ msgstr "الحالي"
 msgid "Custom"
 msgstr "مخصص"
 
-#: packages/admin/src/components/settings/SeoSettings.tsx:156
+#: packages/admin/src/components/settings/SeoSettings.tsx:151
 msgid "Custom robots.txt content. Leave empty to use the default."
 msgstr "محتوى robots.txt مخصص. اتركه فارغًا لاستخدام الافتراضي."
 
@@ -1429,13 +1452,13 @@ msgstr "داكن"
 #: packages/admin/src/components/AdminCommandPalette.tsx:131
 #: packages/admin/src/components/ContentTypeList.tsx:246
 #: packages/admin/src/components/Dashboard.tsx:42
-#: packages/admin/src/components/Sidebar.tsx:171
-#: packages/admin/src/components/Sidebar.tsx:389
+#: packages/admin/src/components/Sidebar.tsx:176
+#: packages/admin/src/components/Sidebar.tsx:401
 msgid "Dashboard"
 msgstr "لوحة المعلومات"
 
-#: packages/admin/src/components/comments/CommentInbox.tsx:303
-#: packages/admin/src/components/ContentList.tsx:201
+#: packages/admin/src/components/comments/CommentInbox.tsx:296
+#: packages/admin/src/components/ContentList.tsx:232
 msgid "Date"
 msgstr "التاريخ"
 
@@ -1448,7 +1471,7 @@ msgstr "تاريخ ووقت"
 msgid "Date and time picker"
 msgstr "منتقي التاريخ والوقت"
 
-#: packages/admin/src/components/settings/GeneralSettings.tsx:279
+#: packages/admin/src/components/settings/GeneralSettings.tsx:273
 msgid "Date Format"
 msgstr "تنسيق التاريخ"
 
@@ -1473,8 +1496,8 @@ msgstr "قم بتعريف تصنيف جديد لتنظيم المحتوى"
 msgid "Define the structure of your content"
 msgstr "حدد هيكل محتواك"
 
-#: packages/admin/src/components/comments/CommentInbox.tsx:274
-#: packages/admin/src/components/comments/CommentInbox.tsx:414
+#: packages/admin/src/components/comments/CommentInbox.tsx:267
+#: packages/admin/src/components/comments/CommentInbox.tsx:407
 #: packages/admin/src/components/ContentTypeList.tsx:148
 #: packages/admin/src/components/MediaDetailPanel.tsx:230
 #: packages/admin/src/components/MediaDetailPanel.tsx:255
@@ -1512,7 +1535,7 @@ msgstr "حذف قائمة {0}"
 msgid "Delete {0}?"
 msgstr "حذف {0}؟"
 
-#: packages/admin/src/components/comments/CommentInbox.tsx:412
+#: packages/admin/src/components/comments/CommentInbox.tsx:405
 msgid "Delete Comment?"
 msgstr "حذف التعليق؟"
 
@@ -1528,16 +1551,16 @@ msgstr "حذف الوسائط؟"
 msgid "Delete Menu"
 msgstr "حذف القائمة"
 
-#: packages/admin/src/components/comments/CommentInbox.tsx:532
+#: packages/admin/src/components/comments/CommentInbox.tsx:525
 msgid "Delete permanently"
 msgstr "حذف نهائي"
 
 #: packages/admin/src/components/comments/CommentDetail.tsx:182
-#: packages/admin/src/components/ContentList.tsx:527
+#: packages/admin/src/components/ContentList.tsx:642
 msgid "Delete Permanently"
 msgstr "حذف نهائي"
 
-#: packages/admin/src/components/ContentList.tsx:507
+#: packages/admin/src/components/ContentList.tsx:622
 msgid "Delete Permanently?"
 msgstr "حذف نهائي؟"
 
@@ -1558,11 +1581,11 @@ msgstr "حذف إعادة التوجيه؟"
 msgid "Delete Section?"
 msgstr "حذف القسم؟"
 
-#: packages/admin/src/components/ContentList.tsx:306
+#: packages/admin/src/components/ContentList.tsx:346
 msgid "Deleted"
 msgstr "محذوف"
 
-#: packages/admin/src/components/comments/CommentInbox.tsx:415
+#: packages/admin/src/components/comments/CommentInbox.tsx:408
 #: packages/admin/src/components/ContentTypeList.tsx:149
 #: packages/admin/src/components/MediaDetailPanel.tsx:230
 #: packages/admin/src/components/MediaDetailPanel.tsx:256
@@ -1574,7 +1597,7 @@ msgid "Deleting..."
 msgstr "جاري الحذف..."
 
 #: packages/admin/src/components/ThemeMarketplaceBrowse.tsx:260
-#: packages/admin/src/components/ThemeMarketplaceDetail.tsx:153
+#: packages/admin/src/components/ThemeMarketplaceDetail.tsx:151
 msgid "Demo"
 msgstr "عرض توضيحي"
 
@@ -1659,26 +1682,26 @@ msgstr "معطل"
 msgid "Disabled:"
 msgstr "معطل:"
 
-#: packages/admin/src/components/ContentEditor.tsx:621
-#: packages/admin/src/components/ContentEditor.tsx:643
+#: packages/admin/src/components/ContentEditor.tsx:617
+#: packages/admin/src/components/ContentEditor.tsx:639
 msgid "Discard changes"
 msgstr "التخلي عن التغييرات"
 
-#: packages/admin/src/components/ContentEditor.tsx:627
+#: packages/admin/src/components/ContentEditor.tsx:623
 msgid "Discard draft changes?"
 msgstr "التخلي عن تغييرات المسودة؟"
 
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:226
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:228
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:238
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:240
 msgid "Dismiss"
 msgstr "إخفاء"
 
-#: packages/admin/src/components/Widgets.tsx:97
+#: packages/admin/src/components/Widgets.tsx:103
 msgid "Display a navigation menu"
 msgstr "عرض قائمة تنقل"
 
-#: packages/admin/src/components/ContentEditor.tsx:1792
-#: packages/admin/src/components/ContentEditor.tsx:1854
+#: packages/admin/src/components/ContentEditor.tsx:1793
+#: packages/admin/src/components/ContentEditor.tsx:1855
 msgid "Display name"
 msgstr "اسم العرض"
 
@@ -1696,11 +1719,11 @@ msgstr "حجم العرض"
 msgid "Displayed below the image as a visible caption."
 msgstr "تُعرض أسفل الصورة كتسمية مرئية."
 
-#: packages/admin/src/components/ContentEditor.tsx:597
+#: packages/admin/src/components/ContentEditor.tsx:593
 msgid "Distraction-free mode (⌘⇧\\)"
 msgstr "وضع الخلو من التشتيت (⌘⇧\\)"
 
-#: packages/admin/src/components/PortableTextEditor.tsx:769
+#: packages/admin/src/components/PortableTextEditor.tsx:796
 msgid "Divider"
 msgstr "فاصل"
 
@@ -1720,7 +1743,7 @@ msgstr "تم إزالة النطاق"
 msgid "Domain updated"
 msgstr "تم تحديث النطاق"
 
-#: packages/admin/src/components/LoginPage.tsx:358
+#: packages/admin/src/components/LoginPage.tsx:332
 msgid "Don't have an account? <0>Sign up</0>"
 msgstr "أليس لديك حساب؟ قم ب<0>التسجيل</0>"
 
@@ -1729,7 +1752,7 @@ msgstr "أليس لديك حساب؟ قم ب<0>التسجيل</0>"
 msgid "Done"
 msgstr "تم"
 
-#: packages/admin/src/components/ContentEditor.tsx:1735
+#: packages/admin/src/components/ContentEditor.tsx:1736
 msgid "Down"
 msgstr "أسفل"
 
@@ -1737,20 +1760,20 @@ msgstr "أسفل"
 msgid "Downloading"
 msgstr "جاري التنزيل"
 
-#: packages/admin/src/components/ContentList.tsx:553
+#: packages/admin/src/components/ContentList.tsx:668
 msgid "draft"
 msgstr "مسودة"
 
-#: packages/admin/src/components/ContentEditor.tsx:793
+#: packages/admin/src/components/ContentEditor.tsx:789
 #: packages/admin/src/components/ContentPickerModal.tsx:217
 msgid "Draft"
 msgstr "مسودة"
 
-#: packages/admin/src/components/ContentTypeEditor.tsx:117
+#: packages/admin/src/components/ContentTypeEditor.tsx:110
 msgid "draft, published, or archived"
 msgstr "مسودة، منشورة، أو مؤرشفة"
 
-#: packages/admin/src/components/ContentTypeEditor.tsx:69
+#: packages/admin/src/components/ContentTypeEditor.tsx:62
 #: packages/admin/src/components/Dashboard.tsx:188
 msgid "Drafts"
 msgstr "المسودات"
@@ -1759,15 +1782,19 @@ msgstr "المسودات"
 msgid "Drag and drop or click to browse (.xml)"
 msgstr "اسحب وأفلت أو اضغط للتصفح (.xml)"
 
+#: packages/admin/src/components/PortableTextEditor.tsx:1484
+msgid "Drag to reorder"
+msgstr ""
+
 #: packages/admin/src/components/WordPressImport.tsx:1418
 msgid "Drop your WordPress export file here"
 msgstr "قم بإفلات ملف تصدير WordPress الخاص بك هنا"
 
-#: packages/admin/src/components/ContentList.tsx:418
+#: packages/admin/src/components/ContentList.tsx:533
 msgid "Duplicate {title}"
 msgstr "استنساخ {title}"
 
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:403
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:415
 msgid "e.g., CI/CD Pipeline"
 msgstr "على سبيل المثال، خط CI/CD"
 
@@ -1775,8 +1802,8 @@ msgstr "على سبيل المثال، خط CI/CD"
 msgid "e.g., MacBook Pro, iPhone"
 msgstr "مثال: MacBook Pro, iPhone"
 
-#: packages/admin/src/components/ContentEditor.tsx:974
-#: packages/admin/src/components/ContentEditor.tsx:1744
+#: packages/admin/src/components/ContentEditor.tsx:970
+#: packages/admin/src/components/ContentEditor.tsx:1745
 #: packages/admin/src/components/MenuEditor.tsx:367
 #: packages/admin/src/components/MenuList.tsx:185
 #: packages/admin/src/components/Sections.tsx:390
@@ -1793,15 +1820,15 @@ msgstr "تعديل"
 msgid "Edit {0}"
 msgstr "تعديل {0}"
 
-#: packages/admin/src/components/ContentEditor.tsx:560
+#: packages/admin/src/components/ContentEditor.tsx:556
 msgid "Edit {collectionLabel}"
 msgstr "تعديل {collectionLabel}"
 
-#: packages/admin/src/components/ContentList.tsx:410
+#: packages/admin/src/components/ContentList.tsx:525
 msgid "Edit {title}"
 msgstr "تعديل {title}"
 
-#: packages/admin/src/components/ContentEditor.tsx:1851
+#: packages/admin/src/components/ContentEditor.tsx:1852
 msgid "Edit byline"
 msgstr "تعديل اسم المؤلف"
 
@@ -1849,13 +1876,13 @@ msgstr "البريد الإلكتروني"
 msgid "Email (optional)"
 msgstr "البريد الإلكتروني (اختياري)"
 
-#: packages/admin/src/components/LoginPage.tsx:183
+#: packages/admin/src/components/LoginPage.tsx:126
 #: packages/admin/src/components/SignupPage.tsx:65
 #: packages/admin/src/components/users/InviteUserModal.tsx:154
 msgid "Email address"
 msgstr "عنوان البريد الإلكتروني"
 
-#: packages/admin/src/components/SetupWizard.tsx:204
+#: packages/admin/src/components/SetupWizard.tsx:208
 #: packages/admin/src/components/SignupPage.tsx:48
 msgid "Email is required"
 msgstr "البريد الإلكتروني مطلوب"
@@ -1886,11 +1913,11 @@ msgid "Email verified!"
 msgstr "تم التحقق من البريد الإلكتروني!"
 
 #. placeholder {0}: block.label
-#: packages/admin/src/components/PortableTextEditor.tsx:1443
+#: packages/admin/src/components/PortableTextEditor.tsx:1811
 msgid "Embed a {0}"
 msgstr "تضمين {0}"
 
-#: packages/admin/src/components/PortableTextEditor.tsx:1446
+#: packages/admin/src/components/PortableTextEditor.tsx:1814
 msgid "Embeds"
 msgstr "المضمنات"
 
@@ -1906,7 +1933,7 @@ msgstr "تم اكتشاف إضافة مُصدّر EmDash. يمكنك استير�
 msgid "Enable"
 msgstr "تفعيل"
 
-#: packages/admin/src/components/ContentTypeEditor.tsx:85
+#: packages/admin/src/components/ContentTypeEditor.tsx:78
 msgid "Enable full-text search on this collection"
 msgstr "تفعيل البحث النصي الكامل على هذه المجموعة"
 
@@ -1924,7 +1951,7 @@ msgid "Enabled"
 msgstr "مُفعَّل"
 
 #. placeholder {0}: label.toLowerCase()
-#: packages/admin/src/components/ContentEditor.tsx:1187
+#: packages/admin/src/components/ContentEditor.tsx:1184
 msgid "Enter {0}..."
 msgstr "أدخل {0}..."
 
@@ -1933,7 +1960,7 @@ msgstr "أدخل {0}..."
 msgid "Enter a URL (https://…) or a relative path (/…)"
 msgstr "قم بإدخال رابطًا (https://…) أو رابطًا نسبيًا (/…)"
 
-#: packages/admin/src/components/ContentEditor.tsx:1401
+#: packages/admin/src/components/ContentEditor.tsx:1402
 msgid "Enter a valid URL (e.g. https://example.com)"
 msgstr ""
 
@@ -1941,7 +1968,7 @@ msgstr ""
 msgid "Enter credentials manually"
 msgstr "إدخال بيانات الاعتماد يدويًا"
 
-#: packages/admin/src/components/ContentEditor.tsx:596
+#: packages/admin/src/components/ContentEditor.tsx:592
 msgid "Enter distraction-free mode"
 msgstr "الدخول إلى وضع الخلو من التشتت"
 
@@ -1949,7 +1976,7 @@ msgstr "الدخول إلى وضع الخلو من التشتت"
 msgid "Enter email"
 msgstr "أدخل البريد الإلكتروني"
 
-#: packages/admin/src/components/ContentEditor.tsx:1208
+#: packages/admin/src/components/ContentEditor.tsx:1206
 msgid "Enter markdown content..."
 msgstr "أدخل محتوى Markdown..."
 
@@ -1961,6 +1988,10 @@ msgstr "أدخل الاسم"
 msgid "Enter the code from your terminal"
 msgstr "أدخل الرمز من الطرفية الخاصة بك"
 
+#: packages/admin/src/components/LoginPage.tsx:325
+msgid "Enter your handle to sign in."
+msgstr ""
+
 #: packages/admin/src/components/WordPressImport.tsx:1289
 msgid "Enter your WordPress credentials to import content directly."
 msgstr "أدخل بيانات اعتماد WordPress لاستيراد المحتوى مباشرةً."
@@ -1971,7 +2002,7 @@ msgstr "أدخل رابط موقع WordPress الخاص بك"
 
 #: packages/admin/src/components/MenuEditor.tsx:83
 #: packages/admin/src/components/MenuEditor.tsx:122
-#: packages/admin/src/components/SetupWizard.tsx:478
+#: packages/admin/src/components/SetupWizard.tsx:552
 msgid "Error"
 msgstr "خطأ"
 
@@ -1983,7 +2014,7 @@ msgstr "خطأ في حفظ القسم"
 msgid "Exists"
 msgstr "موجود"
 
-#: packages/admin/src/components/ContentEditor.tsx:554
+#: packages/admin/src/components/ContentEditor.tsx:550
 msgid "Exit distraction-free mode"
 msgstr "الخروج من وضع الخلو من التشتت"
 
@@ -1996,11 +2027,11 @@ msgid "Expand details"
 msgstr "توسيع التفاصيل"
 
 #. placeholder {0}: new Date(token.expiresAt).toLocaleDateString()
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:280
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:292
 msgid "Expires {0}"
 msgstr "ينتهي في {0}"
 
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:429
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:441
 msgid "Expiry"
 msgstr "الإنتهاء"
 
@@ -2012,7 +2043,7 @@ msgstr "التصدير من WordPress يدويًا"
 msgid "Export your content from WordPress to import everything including drafts."
 msgstr "صدّر محتواك من WordPress لاستيراد كل شيء بما في ذلك المسودات."
 
-#: packages/admin/src/components/settings/SocialSettings.tsx:140
+#: packages/admin/src/components/settings/SocialSettings.tsx:141
 msgid "Facebook"
 msgstr "فيسبوك"
 
@@ -2024,7 +2055,7 @@ msgstr "فشل"
 msgid "Failed"
 msgstr "فشل"
 
-#: packages/admin/src/components/MarketplacePluginDetail.tsx:198
+#: packages/admin/src/components/MarketplacePluginDetail.tsx:189
 msgid "Failed security audit"
 msgstr "فشل التدقيق الأمني"
 
@@ -2032,7 +2063,7 @@ msgstr "فشل التدقيق الأمني"
 msgid "Failed to add domain"
 msgstr "فشل في إضافة النطاق"
 
-#: packages/admin/src/components/ContentEditor.tsx:1835
+#: packages/admin/src/components/ContentEditor.tsx:1836
 msgid "Failed to create byline"
 msgstr "فشل في إنشاء اسم المؤلف"
 
@@ -2056,7 +2087,7 @@ msgstr "فشل في تفعيل الإضافة"
 msgid "Failed to generate preview"
 msgstr "فشل في توليد المعاينة"
 
-#: packages/admin/src/components/ThemeMarketplaceDetail.tsx:163
+#: packages/admin/src/components/ThemeMarketplaceDetail.tsx:161
 msgid "Failed to generate preview URL"
 msgstr "فشل في توليد رابط المعاينة"
 
@@ -2068,11 +2099,11 @@ msgstr "فشل في تحميل النطاقات المسموح بها"
 msgid "Failed to load email settings"
 msgstr "فشل في تحميل إعدادات البريد الإلكتروني"
 
-#: packages/admin/src/components/settings/SecuritySettings.tsx:148
+#: packages/admin/src/components/settings/SecuritySettings.tsx:149
 msgid "Failed to load passkeys"
 msgstr "فشل في تحميل مفاتيح المرور"
 
-#: packages/admin/src/components/MarketplacePluginDetail.tsx:120
+#: packages/admin/src/components/MarketplacePluginDetail.tsx:111
 msgid "Failed to load plugin"
 msgstr "فشل في تحميل الإضافة"
 
@@ -2085,11 +2116,11 @@ msgstr "فشل في تحميل الإضافات: {0}"
 msgid "Failed to load revisions"
 msgstr "فشل في تحميل المراجعات"
 
-#: packages/admin/src/components/SetupWizard.tsx:480
+#: packages/admin/src/components/SetupWizard.tsx:554
 msgid "Failed to load setup"
 msgstr "فشل في تحميل الإعداد"
 
-#: packages/admin/src/components/ThemeMarketplaceDetail.tsx:91
+#: packages/admin/src/components/ThemeMarketplaceDetail.tsx:89
 msgid "Failed to load theme"
 msgstr "فشل في تحميل المظهر"
 
@@ -2098,26 +2129,26 @@ msgid "Failed to remove domain"
 msgstr "فشل في إزالة النطاق"
 
 #: packages/admin/src/components/settings/PasskeyItem.tsx:99
-#: packages/admin/src/components/settings/SecuritySettings.tsx:82
+#: packages/admin/src/components/settings/SecuritySettings.tsx:83
 msgid "Failed to remove passkey"
 msgstr "فشل في إزالة مفتاح المرور"
 
-#: packages/admin/src/components/settings/SecuritySettings.tsx:66
+#: packages/admin/src/components/settings/SecuritySettings.tsx:67
 msgid "Failed to rename passkey"
 msgstr "فشل في إعادة تسمية مفتاح المرور"
 
-#: packages/admin/src/router.tsx:1519
+#: packages/admin/src/router.tsx:1530
 msgid "Failed to save"
 msgstr ""
 
-#: packages/admin/src/components/settings/GeneralSettings.tsx:64
-#: packages/admin/src/components/settings/SeoSettings.tsx:58
-#: packages/admin/src/components/settings/SocialSettings.tsx:52
+#: packages/admin/src/components/settings/GeneralSettings.tsx:58
+#: packages/admin/src/components/settings/SeoSettings.tsx:53
+#: packages/admin/src/components/settings/SocialSettings.tsx:53
 msgid "Failed to save settings"
 msgstr "فشل في حفظ الإعدادات"
 
-#: packages/admin/src/components/LoginPage.tsx:127
-#: packages/admin/src/components/LoginPage.tsx:132
+#: packages/admin/src/components/LoginPage.tsx:70
+#: packages/admin/src/components/LoginPage.tsx:75
 msgid "Failed to send magic link"
 msgstr "فشل في إرسال الرابط السحري"
 
@@ -2130,7 +2161,7 @@ msgstr "فشل في إرسال البريد الإلكتروني التجريب�
 msgid "Failed to update {0}"
 msgstr ""
 
-#: packages/admin/src/components/ContentEditor.tsx:1885
+#: packages/admin/src/components/ContentEditor.tsx:1886
 msgid "Failed to update byline"
 msgstr "فشل في تحديث اسم المؤلف"
 
@@ -2138,8 +2169,8 @@ msgstr "فشل في تحديث اسم المؤلف"
 msgid "Failed to update domain"
 msgstr "فشل في تحديث النطاق"
 
-#: packages/admin/src/components/settings/GeneralSettings.tsx:221
-#: packages/admin/src/components/settings/GeneralSettings.tsx:226
+#: packages/admin/src/components/settings/GeneralSettings.tsx:215
+#: packages/admin/src/components/settings/GeneralSettings.tsx:220
 msgid "Favicon"
 msgstr "أيقونة المتصفح"
 
@@ -2201,7 +2232,7 @@ msgstr "ملفات تم استيرادها"
 msgid "Filter by capability"
 msgstr "تصفية حسب الإمكانية"
 
-#: packages/admin/src/components/comments/CommentInbox.tsx:184
+#: packages/admin/src/components/comments/CommentInbox.tsx:177
 msgid "Filter by collection"
 msgstr "تصفية حسب المجموعة"
 
@@ -2217,7 +2248,7 @@ msgstr "للحصول على أفضل تجربة استيراد، قم بتثبي
 msgid "Full access"
 msgstr "الوصول الكامل"
 
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:85
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:97
 msgid "Full admin access"
 msgstr "وصول التحكم الكامل"
 
@@ -2225,8 +2256,8 @@ msgstr "وصول التحكم الكامل"
 msgid "General"
 msgstr "عام"
 
-#: packages/admin/src/components/settings/GeneralSettings.tsx:111
-#: packages/admin/src/components/settings/GeneralSettings.tsx:129
+#: packages/admin/src/components/settings/GeneralSettings.tsx:105
+#: packages/admin/src/components/settings/GeneralSettings.tsx:123
 msgid "General Settings"
 msgstr "الإعدادات العامة"
 
@@ -2234,7 +2265,7 @@ msgstr "الإعدادات العامة"
 msgid "Get Started"
 msgstr "بدء الاستخدام"
 
-#: packages/admin/src/components/settings/SocialSettings.tsx:134
+#: packages/admin/src/components/settings/SocialSettings.tsx:135
 msgid "GitHub"
 msgstr "GitHub"
 
@@ -2246,7 +2277,7 @@ msgstr "أعط مفتاح المرور هذا اسمًا لمساعدتك في �
 msgid "Go to Dashboard"
 msgstr "الذهاب إلى لوحة المعلومات"
 
-#: packages/admin/src/components/settings/SeoSettings.tsx:140
+#: packages/admin/src/components/settings/SeoSettings.tsx:135
 msgid "Google Verification"
 msgstr "تحقق Google"
 
@@ -2259,17 +2290,17 @@ msgid "Group (optional)"
 msgstr "المجموعة (اختياري)"
 
 #: packages/admin/src/components/editor/BlockMenu.tsx:61
-#: packages/admin/src/components/PortableTextEditor.tsx:699
+#: packages/admin/src/components/PortableTextEditor.tsx:726
 msgid "Heading 1"
 msgstr "عنوان 1"
 
 #: packages/admin/src/components/editor/BlockMenu.tsx:69
-#: packages/admin/src/components/PortableTextEditor.tsx:709
+#: packages/admin/src/components/PortableTextEditor.tsx:736
 msgid "Heading 2"
 msgstr "عنوان 2"
 
 #: packages/admin/src/components/editor/BlockMenu.tsx:77
-#: packages/admin/src/components/PortableTextEditor.tsx:719
+#: packages/admin/src/components/PortableTextEditor.tsx:746
 msgid "Heading 3"
 msgstr "عنوان 3"
 
@@ -2278,11 +2309,11 @@ msgstr "عنوان 3"
 msgid "Height"
 msgstr "الارتفاع"
 
-#: packages/admin/src/components/SeoPanel.tsx:186
+#: packages/admin/src/components/SeoPanel.tsx:188
 msgid "Hide from search engines"
 msgstr "إخفاء من محركات البحث"
 
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:203
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:215
 msgid "Hide token"
 msgstr "إخفاء الرمز"
 
@@ -2299,7 +2330,7 @@ msgstr "الزيارات"
 msgid "Home"
 msgstr "الرئيسية"
 
-#: packages/admin/src/components/ThemeMarketplaceDetail.tsx:237
+#: packages/admin/src/components/ThemeMarketplaceDetail.tsx:235
 msgid "Homepage"
 msgstr "الصفحة الرئيسية"
 
@@ -2316,20 +2347,20 @@ msgid "https://example.com or /about"
 msgstr "https://example.com أو /about"
 
 #: packages/admin/src/components/MarketplaceBrowse.tsx:242
-#: packages/admin/src/components/MarketplacePluginDetail.tsx:152
+#: packages/admin/src/components/MarketplacePluginDetail.tsx:143
 msgid "Icon blurred due to image audit"
 msgstr "تم تعتيم الأيقونة بسبب التدقيق على الصورة"
 
-#: packages/admin/src/components/ContentTypeEditor.tsx:103
+#: packages/admin/src/components/ContentTypeEditor.tsx:96
 msgid "ID"
 msgstr "المعرف"
 
-#: packages/admin/src/components/LoginPage.tsx:160
+#: packages/admin/src/components/LoginPage.tsx:103
 msgid "If an account exists for <0>{email}</0>, we've sent a sign-in link."
 msgstr "إذا كان يوجد حساب لـ <0>{email}</0>، قمنا بإرسال رابط لتسجيل دخول."
 
 #: packages/admin/src/components/FieldEditor.tsx:200
-#: packages/admin/src/components/PortableTextEditor.tsx:1413
+#: packages/admin/src/components/PortableTextEditor.tsx:1780
 msgid "Image"
 msgstr "صورة"
 
@@ -2355,7 +2386,7 @@ msgid "image URLs updated in"
 msgstr "تم تحديث روابط الصور في"
 
 #: packages/admin/src/components/AdminCommandPalette.tsx:227
-#: packages/admin/src/components/Sidebar.tsx:223
+#: packages/admin/src/components/Sidebar.tsx:228
 msgid "Import"
 msgstr "استيراد"
 
@@ -2444,7 +2475,7 @@ msgstr "جاري استيراد المحتوى..."
 msgid "Importing Media"
 msgstr "جاري استيراد الوسائط"
 
-#: packages/admin/src/components/SetupWizard.tsx:163
+#: packages/admin/src/components/SetupWizard.tsx:167
 msgid "Include sample content (recommended for new sites)"
 msgstr "تضمين محتوى نموذجي (مُوصى به للمواقع الجديدة)"
 
@@ -2457,23 +2488,23 @@ msgstr "غير متوافق"
 msgid "Insert"
 msgstr "إدراج"
 
-#: packages/admin/src/components/PortableTextEditor.tsx:750
+#: packages/admin/src/components/PortableTextEditor.tsx:777
 msgid "Insert a blockquote"
 msgstr "إدراج كتلة إقتباس"
 
-#: packages/admin/src/components/PortableTextEditor.tsx:760
+#: packages/admin/src/components/PortableTextEditor.tsx:787
 msgid "Insert a code block"
 msgstr "إدراج كتلة كود"
 
-#: packages/admin/src/components/PortableTextEditor.tsx:770
+#: packages/admin/src/components/PortableTextEditor.tsx:797
 msgid "Insert a horizontal rule"
 msgstr "إدراج فاصل أفقي"
 
-#: packages/admin/src/components/PortableTextEditor.tsx:1428
+#: packages/admin/src/components/PortableTextEditor.tsx:1795
 msgid "Insert a reusable section"
 msgstr "إدراج قسم قابل لإعادة الاستخدام"
 
-#: packages/admin/src/components/PortableTextEditor.tsx:1414
+#: packages/admin/src/components/PortableTextEditor.tsx:1781
 msgid "Insert an image"
 msgstr "إدراج صورة"
 
@@ -2485,11 +2516,11 @@ msgstr "إدراج من رابط"
 msgid "Insert Section"
 msgstr "إدراج قسم"
 
-#: packages/admin/src/components/settings/SocialSettings.tsx:146
+#: packages/admin/src/components/settings/SocialSettings.tsx:147
 msgid "Instagram"
 msgstr "إنستغرام"
 
-#: packages/admin/src/components/MarketplacePluginDetail.tsx:203
+#: packages/admin/src/components/MarketplacePluginDetail.tsx:194
 msgid "Install"
 msgstr "تثبيت"
 
@@ -2497,12 +2528,12 @@ msgstr "تثبيت"
 msgid "Install and activate an email provider plugin to enable email features like invitations, magic links, and password recovery."
 msgstr "قم بتثبيت وتفعيل إضافة مزود البريد الإلكتروني لتمكين ميزات البريد مثل الدعوات والروابط السحرية واسترداد كلمة المرور."
 
-#: packages/admin/src/components/MarketplacePluginDetail.tsx:196
+#: packages/admin/src/components/MarketplacePluginDetail.tsx:187
 msgid "Install blocked"
 msgstr "تم حظر التثبيت"
 
 #: packages/admin/src/components/MarketplaceBrowse.tsx:262
-#: packages/admin/src/components/MarketplacePluginDetail.tsx:183
+#: packages/admin/src/components/MarketplacePluginDetail.tsx:174
 msgid "Installed"
 msgstr "مثبَّت"
 
@@ -2524,7 +2555,7 @@ msgstr "جاري التثبيت..."
 msgid "Integer"
 msgstr "عدد صحيح"
 
-#: packages/admin/src/components/ContentEditor.tsx:1470
+#: packages/admin/src/components/ContentEditor.tsx:1471
 msgid "Invalid JSON"
 msgstr ""
 
@@ -2541,7 +2572,8 @@ msgid "Invite User"
 msgstr "دعوة مستخدم"
 
 #. placeholder {0}: index + 1
-#: packages/admin/src/components/RepeaterField.tsx:218
+#: packages/admin/src/components/PortableTextEditor.tsx:1470
+#: packages/admin/src/components/RepeaterField.tsx:233
 msgid "Item {0}"
 msgstr "العنصر {0}"
 
@@ -2557,7 +2589,7 @@ msgstr "تم حذف العنصر"
 msgid "Item updated"
 msgstr "تم تحديث العنصر"
 
-#: packages/admin/src/components/SetupWizard.tsx:238
+#: packages/admin/src/components/SetupWizard.tsx:242
 #: packages/admin/src/components/SignupPage.tsx:204
 msgid "Jane Doe"
 msgstr "جين دو"
@@ -2566,9 +2598,9 @@ msgstr "جين دو"
 msgid "JSON"
 msgstr "JSON"
 
-#: packages/admin/src/components/MarketplacePluginDetail.tsx:304
+#: packages/admin/src/components/MarketplacePluginDetail.tsx:295
 #: packages/admin/src/components/SectionEditor.tsx:221
-#: packages/admin/src/components/ThemeMarketplaceDetail.tsx:195
+#: packages/admin/src/components/ThemeMarketplaceDetail.tsx:193
 msgid "Keywords"
 msgstr "الكلمات المفتاحية"
 
@@ -2581,13 +2613,13 @@ msgstr "الكلمات المفتاحية"
 msgid "Label"
 msgstr "التسمية"
 
-#: packages/admin/src/components/LoginPage.tsx:371
+#: packages/admin/src/components/LoginPage.tsx:345
 #: packages/admin/src/components/Settings.tsx:129
 #: packages/admin/src/components/Settings.tsx:134
 msgid "Language"
 msgstr "اللغة"
 
-#: packages/admin/src/components/PortableTextEditor.tsx:700
+#: packages/admin/src/components/PortableTextEditor.tsx:727
 msgid "Large section heading"
 msgstr "عنوان قسم كبير"
 
@@ -2613,7 +2645,7 @@ msgstr "آخر استخدام"
 
 #. placeholder {0}: new Date(cred.lastUsedAt).toLocaleDateString()
 #. placeholder {0}: new Date(token.lastUsedAt).toLocaleDateString()
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:285
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:297
 #: packages/admin/src/components/users/UserDetail.tsx:262
 msgid "Last used {0}"
 msgstr "آخر استخدام في {0}"
@@ -2630,7 +2662,7 @@ msgstr "تركه دون تعيين"
 msgid "Library"
 msgstr "المكتبة"
 
-#: packages/admin/src/components/ThemeMarketplaceDetail.tsx:209
+#: packages/admin/src/components/ThemeMarketplaceDetail.tsx:207
 msgid "License"
 msgstr "الترخيص"
 
@@ -2655,11 +2687,11 @@ msgstr "الربط مع عنصر محتوى آخر"
 msgid "Linked Accounts ({0})"
 msgstr "الحسابات المربوطة ({0})"
 
-#: packages/admin/src/components/settings/SocialSettings.tsx:152
+#: packages/admin/src/components/settings/SocialSettings.tsx:153
 msgid "LinkedIn"
 msgstr "لينكد إن"
 
-#: packages/admin/src/components/ThemeMarketplaceDetail.tsx:216
+#: packages/admin/src/components/ThemeMarketplaceDetail.tsx:214
 msgid "Links"
 msgstr "الروابط"
 
@@ -2667,7 +2699,7 @@ msgstr "الروابط"
 msgid "List view"
 msgstr "عرض قائمة"
 
-#: packages/admin/src/components/ContentEditor.tsx:676
+#: packages/admin/src/components/ContentEditor.tsx:672
 msgid "Live View"
 msgstr "العرض المباشر"
 
@@ -2677,8 +2709,8 @@ msgstr "العرض المباشر"
 msgid "Load more"
 msgstr "تحميل المزيد"
 
-#: packages/admin/src/components/ContentList.tsx:290
-#: packages/admin/src/components/ContentList.tsx:338
+#: packages/admin/src/components/ContentList.tsx:330
+#: packages/admin/src/components/ContentList.tsx:387
 msgid "Load More"
 msgstr "تحميل المزيد"
 
@@ -2686,7 +2718,7 @@ msgstr "تحميل المزيد"
 msgid "Loading collections..."
 msgstr "جاري تحميل المجموعات..."
 
-#: packages/admin/src/components/comments/CommentInbox.tsx:314
+#: packages/admin/src/components/comments/CommentInbox.tsx:307
 msgid "Loading comments..."
 msgstr "جاري تحميل التعليقات..."
 
@@ -2715,13 +2747,13 @@ msgstr "جاري تحميل إعادات التوجيه..."
 msgid "Loading sections..."
 msgstr "جاري تحميل الأقسام..."
 
-#: packages/admin/src/components/settings/GeneralSettings.tsx:114
-#: packages/admin/src/components/settings/SeoSettings.tsx:90
-#: packages/admin/src/components/settings/SocialSettings.tsx:84
+#: packages/admin/src/components/settings/GeneralSettings.tsx:108
+#: packages/admin/src/components/settings/SeoSettings.tsx:85
+#: packages/admin/src/components/settings/SocialSettings.tsx:85
 msgid "Loading settings..."
 msgstr "جاري تحميل الإعدادات..."
 
-#: packages/admin/src/components/SetupWizard.tsx:467
+#: packages/admin/src/components/SetupWizard.tsx:541
 msgid "Loading setup..."
 msgstr "جاري تحميل الإعداد..."
 
@@ -2729,21 +2761,23 @@ msgstr "جاري تحميل الإعداد..."
 msgid "Loading terms..."
 msgstr "جاري تحميل المصطلحات..."
 
-#: packages/admin/src/components/ContentList.tsx:290
-#: packages/admin/src/components/ContentList.tsx:338
+#: packages/admin/src/components/ContentList.tsx:245
+#: packages/admin/src/components/ContentList.tsx:330
+#: packages/admin/src/components/ContentList.tsx:359
+#: packages/admin/src/components/ContentList.tsx:387
 #: packages/admin/src/components/ContentPickerModal.tsx:238
 #: packages/admin/src/components/MarketplaceBrowse.tsx:199
 #: packages/admin/src/components/settings/AllowedDomainsSettings.tsx:181
-#: packages/admin/src/components/settings/SecuritySettings.tsx:117
+#: packages/admin/src/components/settings/SecuritySettings.tsx:118
 #: packages/admin/src/components/TaxonomyManager.tsx:583
 #: packages/admin/src/components/ThemeMarketplaceBrowse.tsx:168
 #: packages/admin/src/components/ThemeMarketplaceBrowse.tsx:250
-#: packages/admin/src/components/ThemeMarketplaceDetail.tsx:145
+#: packages/admin/src/components/ThemeMarketplaceDetail.tsx:143
 #: packages/admin/src/components/WelcomeModal.tsx:143
 msgid "Loading..."
 msgstr "جاري التحميل..."
 
-#: packages/admin/src/components/ContentList.tsx:197
+#: packages/admin/src/components/ContentList.tsx:225
 #: packages/admin/src/components/LocaleSwitcher.tsx:60
 msgid "Locale"
 msgstr "المَحلية"
@@ -2759,8 +2793,8 @@ msgstr "تثبيت نسبة العرض إلى الارتفاع"
 msgid "Log out"
 msgstr "تسجيل الخروج"
 
-#: packages/admin/src/components/settings/GeneralSettings.tsx:177
-#: packages/admin/src/components/settings/GeneralSettings.tsx:182
+#: packages/admin/src/components/settings/GeneralSettings.tsx:171
+#: packages/admin/src/components/settings/GeneralSettings.tsx:176
 msgid "Logo"
 msgstr "الشعار"
 
@@ -2781,7 +2815,7 @@ msgstr "أحرف صغيرة وأرقام وشرطات فقط"
 msgid "Lowercase letters, numbers, and underscores only, starting with a letter"
 msgstr "أحرف صغيرة وأرقام وشرطات سفلية فقط، تبدأ بحرف"
 
-#: packages/admin/src/components/Sidebar.tsx:414
+#: packages/admin/src/components/Sidebar.tsx:426
 msgid "Manage"
 msgstr "إدارة"
 
@@ -2815,7 +2849,7 @@ msgstr "يدوي"
 msgid "Map Authors"
 msgstr "تعيين المؤلفين"
 
-#: packages/admin/src/components/comments/CommentInbox.tsx:508
+#: packages/admin/src/components/comments/CommentInbox.tsx:501
 msgid "Mark as spam"
 msgstr "تحديد كغير مرغوب فيه"
 
@@ -2826,7 +2860,7 @@ msgstr "السوق"
 #: packages/admin/src/components/MarketplaceBrowse.tsx:86
 #: packages/admin/src/components/PluginManager.tsx:161
 #: packages/admin/src/components/PluginManager.tsx:309
-#: packages/admin/src/components/Sidebar.tsx:214
+#: packages/admin/src/components/Sidebar.tsx:219
 msgid "Marketplace"
 msgstr "السوق"
 
@@ -2842,8 +2876,8 @@ msgstr "الحد الأقصى للطول"
 msgid "Max Value"
 msgstr "القيمة القصوى"
 
-#: packages/admin/src/components/PortableTextEditor.tsx:1417
-#: packages/admin/src/components/Sidebar.tsx:180
+#: packages/admin/src/components/PortableTextEditor.tsx:1784
+#: packages/admin/src/components/Sidebar.tsx:185
 #: packages/admin/src/components/WordPressImport.tsx:1164
 msgid "Media"
 msgstr "وسائط"
@@ -2874,19 +2908,19 @@ msgstr "تم تخطي استيراد الوسائط"
 msgid "Media Library"
 msgstr "مكتبة الوسائط"
 
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:64
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:56
 msgid "Media Read"
 msgstr "قراءة الوسائط"
 
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:69
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:61
 msgid "Media Write"
 msgstr "كتابة الوسائط"
 
-#: packages/admin/src/components/PortableTextEditor.tsx:710
+#: packages/admin/src/components/PortableTextEditor.tsx:737
 msgid "Medium section heading"
 msgstr "عنوان قسم متوسط"
 
-#: packages/admin/src/components/Widgets.tsx:96
+#: packages/admin/src/components/Widgets.tsx:102
 msgid "Menu"
 msgstr "قائمة"
 
@@ -2925,7 +2959,7 @@ msgstr "تم تحديث ترتيب القائمة."
 
 #: packages/admin/src/components/AdminCommandPalette.tsx:161
 #: packages/admin/src/components/MenuList.tsx:84
-#: packages/admin/src/components/Sidebar.tsx:190
+#: packages/admin/src/components/Sidebar.tsx:195
 msgid "Menus"
 msgstr "القوائم"
 
@@ -2934,15 +2968,19 @@ msgstr "القوائم"
 msgid "Menus ({0})"
 msgstr "القوائم ({0})"
 
-#: packages/admin/src/components/SeoPanel.tsx:161
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:81
+msgid "Menus Manage"
+msgstr ""
+
+#: packages/admin/src/components/SeoPanel.tsx:162
 msgid "Meta Description"
 msgstr "الوصف التعريفي"
 
-#: packages/admin/src/components/settings/SeoSettings.tsx:149
+#: packages/admin/src/components/settings/SeoSettings.tsx:144
 msgid "Meta tag content for Bing Webmaster Tools verification"
 msgstr "محتوى علامة meta لتحقق Bing Webmaster Tools"
 
-#: packages/admin/src/components/settings/SeoSettings.tsx:143
+#: packages/admin/src/components/settings/SeoSettings.tsx:138
 msgid "Meta tag content for Google Search Console verification"
 msgstr "محتوى علامة meta لتحقق Google Search Console"
 
@@ -2970,15 +3008,15 @@ msgstr "إشارات الإشراف"
 msgid "Modified"
 msgstr "معدَّل"
 
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:80
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:72
 msgid "Modify collection schemas"
 msgstr "تغيير مخططات المجموعات"
 
-#: packages/admin/src/components/ContentList.tsx:439
+#: packages/admin/src/components/ContentList.tsx:554
 msgid "Move \"{title}\" to trash? You can restore it later."
 msgstr "نقل \"{title}\" إلى سلة المحذوفات؟ يمكنك استعادته لاحقًا."
 
-#: packages/admin/src/components/ContentList.tsx:430
+#: packages/admin/src/components/ContentList.tsx:545
 msgid "Move {title} to trash"
 msgstr "نقل {title} إلى سلة المحذوفات"
 
@@ -2986,14 +3024,14 @@ msgstr "نقل {title} إلى سلة المحذوفات"
 msgid "Move down"
 msgstr "تحريك للأسفل"
 
-#: packages/admin/src/components/ContentEditor.tsx:879
-#: packages/admin/src/components/ContentEditor.tsx:901
-#: packages/admin/src/components/ContentList.tsx:452
+#: packages/admin/src/components/ContentEditor.tsx:875
+#: packages/admin/src/components/ContentEditor.tsx:897
+#: packages/admin/src/components/ContentList.tsx:567
 msgid "Move to Trash"
 msgstr "نقل إلى سلة المحذوفات"
 
-#: packages/admin/src/components/ContentEditor.tsx:885
-#: packages/admin/src/components/ContentList.tsx:437
+#: packages/admin/src/components/ContentEditor.tsx:881
+#: packages/admin/src/components/ContentList.tsx:552
 msgid "Move to Trash?"
 msgstr "نقل إلى سلة المحذوفات؟"
 
@@ -3013,7 +3051,7 @@ msgstr "نص عادي متعدد الأسطر"
 msgid "Multiple choices from options"
 msgstr "اختيارات متعددة من الخيارات المتاحة"
 
-#: packages/admin/src/components/SetupWizard.tsx:145
+#: packages/admin/src/components/SetupWizard.tsx:149
 msgid "My Awesome Blog"
 msgstr "مدونتي الرائعة"
 
@@ -3051,7 +3089,7 @@ msgstr "جديد"
 msgid "New {0}"
 msgstr ""
 
-#: packages/admin/src/components/ContentEditor.tsx:560
+#: packages/admin/src/components/ContentEditor.tsx:556
 msgid "New {collectionLabel}"
 msgstr "{collectionLabel} جديد"
 
@@ -3087,16 +3125,16 @@ msgstr "تصنيف جديد"
 msgid "New window"
 msgstr "نافذة جديدة"
 
-#: packages/admin/src/components/ThemeMarketplaceDetail.tsx:321
+#: packages/admin/src/components/ThemeMarketplaceDetail.tsx:319
 msgid "Next"
 msgstr "التالي"
 
-#: packages/admin/src/components/comments/CommentInbox.tsx:378
-#: packages/admin/src/components/ContentList.tsx:278
+#: packages/admin/src/components/comments/CommentInbox.tsx:371
+#: packages/admin/src/components/ContentList.tsx:318
 msgid "Next page"
 msgstr "الصفحة التالية"
 
-#: packages/admin/src/components/MarketplacePluginDetail.tsx:474
+#: packages/admin/src/components/MarketplacePluginDetail.tsx:465
 msgid "Next screenshot"
 msgstr "لقطة الشاشة التالية"
 
@@ -3110,7 +3148,7 @@ msgid "No {0} available."
 msgstr "لا يوجد {0} متاح."
 
 #. placeholder {0}: collectionLabel.toLowerCase()
-#: packages/admin/src/components/ContentList.tsx:212
+#: packages/admin/src/components/ContentList.tsx:252
 msgid "No {0} yet."
 msgstr "لا يوجد {0} بعد."
 
@@ -3128,15 +3166,15 @@ msgstr "لم يتم تسجيل أخطاء 404 بعد."
 msgid "No alt text"
 msgstr "لا يوجد نص بديل"
 
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:263
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:275
 msgid "No API tokens yet. Create one to get started."
 msgstr "لا يوجد رموز API بعد. قم بإنشاء أحدها للبدء."
 
-#: packages/admin/src/components/comments/CommentInbox.tsx:554
+#: packages/admin/src/components/comments/CommentInbox.tsx:547
 msgid "No approved comments yet."
 msgstr "لا توجد تعليقات موافق عليها بعد."
 
-#: packages/admin/src/components/ContentEditor.tsx:1776
+#: packages/admin/src/components/ContentEditor.tsx:1777
 msgid "No bylines selected."
 msgstr "لم يتم اختيار اسماء مؤلفين."
 
@@ -3144,11 +3182,11 @@ msgstr "لم يتم اختيار اسماء مؤلفين."
 msgid "No collections configured"
 msgstr "لم يتم تهيئة مجموعات"
 
-#: packages/admin/src/components/comments/CommentInbox.tsx:553
+#: packages/admin/src/components/comments/CommentInbox.tsx:546
 msgid "No comments awaiting moderation."
 msgstr "لا توجد تعليقات في انتظار الإشراف."
 
-#: packages/admin/src/components/comments/CommentInbox.tsx:549
+#: packages/admin/src/components/comments/CommentInbox.tsx:542
 msgid "No comments match your search."
 msgstr "لا توجد تعليقات مطابقة لبحثك."
 
@@ -3164,7 +3202,7 @@ msgstr "لا يوجد محتوى في هذه المجموعة"
 msgid "No content types yet."
 msgstr "لا يوجد أنواع محتوى بعد."
 
-#: packages/admin/src/components/MarketplacePluginDetail.tsx:275
+#: packages/admin/src/components/MarketplacePluginDetail.tsx:266
 msgid "No detailed description available."
 msgstr "لا يوجد وصف مفصّل متاح."
 
@@ -3184,7 +3222,7 @@ msgstr "لم يتم تهيئة مزود بريد إلكتروني. شارك هذ
 msgid "No EmDash users found"
 msgstr "لم يتم العثور على مستخدمي EmDash"
 
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:40
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:32
 msgid "No expiry"
 msgstr "بدون إنتهاء"
 
@@ -3192,11 +3230,12 @@ msgstr "بدون إنتهاء"
 msgid "No fields to compare"
 msgstr "لا توجد حقول للمقارنة"
 
-#: packages/admin/src/components/editor/DocumentOutline.tsx:188
+#: packages/admin/src/components/editor/DocumentOutline.tsx:189
 msgid "No headings in document"
 msgstr "لا يوجد عناوين في المستند"
 
-#: packages/admin/src/components/RepeaterField.tsx:144
+#: packages/admin/src/components/PortableTextEditor.tsx:1393
+#: packages/admin/src/components/RepeaterField.tsx:159
 msgid "No items yet"
 msgstr "لا توجد عناصر بعد"
 
@@ -3244,7 +3283,7 @@ msgstr "بدون حد أدنى"
 msgid "No passkeys registered"
 msgstr "لم يتم تسجيل مفاتيح مرور"
 
-#: packages/admin/src/components/settings/SecuritySettings.tsx:199
+#: packages/admin/src/components/settings/SecuritySettings.tsx:200
 msgid "No passkeys registered yet."
 msgstr "لم يتم تسجيل مفاتيح مرور بعد."
 
@@ -3268,7 +3307,7 @@ msgstr "لا يوجد نشاط حديث"
 msgid "No redirects yet"
 msgstr "لا توجد إعادات توجيه بعد"
 
-#: packages/admin/src/components/PortableTextEditor.tsx:940
+#: packages/admin/src/components/PortableTextEditor.tsx:967
 msgid "No results"
 msgstr "لا يوجد نتائج"
 
@@ -3277,7 +3316,7 @@ msgstr "لا يوجد نتائج"
 msgid "No results for \"{debouncedQuery}\". Try a different search term."
 msgstr "لا يوجد نتائج لـ \"{debouncedQuery}\". جرّب مصطلح بحث مختلف."
 
-#: packages/admin/src/components/ContentList.tsx:226
+#: packages/admin/src/components/ContentList.tsx:266
 msgid "No results for \"{searchQuery}\""
 msgstr "لا يوجد نتائج لـ \"{searchQuery}\""
 
@@ -3302,7 +3341,7 @@ msgstr "لم يتم العثور على أقسام"
 msgid "No sections yet"
 msgstr "لا توجد أقسام بعد"
 
-#: packages/admin/src/components/comments/CommentInbox.tsx:555
+#: packages/admin/src/components/comments/CommentInbox.tsx:548
 msgid "No spam comments."
 msgstr "لا توجد تعليقات غير مرغوب فيها."
 
@@ -3320,12 +3359,12 @@ msgstr "بدون (المستوى الأعلى)"
 msgid "Number"
 msgstr "عدد"
 
-#: packages/admin/src/components/settings/GeneralSettings.tsx:276
+#: packages/admin/src/components/settings/GeneralSettings.tsx:270
 msgid "Number of posts to show per page on list views"
 msgstr "عدد المنشورات الظاهرة لكل صفحة في عروض القائمة"
 
 #: packages/admin/src/components/editor/BlockMenu.tsx:109
-#: packages/admin/src/components/PortableTextEditor.tsx:739
+#: packages/admin/src/components/PortableTextEditor.tsx:766
 msgid "Numbered List"
 msgstr "قائمة مرقمة"
 
@@ -3395,7 +3434,7 @@ msgstr "أو اختر من المكتبة"
 msgid "Or click to browse. Accepts .xml files exported from WordPress."
 msgstr "أو اضغط للتصفح. يقبل ملفات .xml المُصدَّرة من WordPress."
 
-#: packages/admin/src/components/LoginPage.tsx:313
+#: packages/admin/src/components/LoginPage.tsx:261
 msgid "Or continue with"
 msgstr "أو المواصلة مع"
 
@@ -3416,7 +3455,7 @@ msgstr "تم حفظ الترتيب"
 msgid "Original:"
 msgstr "الأصلي:"
 
-#: packages/admin/src/components/editor/DocumentOutline.tsx:180
+#: packages/admin/src/components/editor/DocumentOutline.tsx:181
 msgid "Outline"
 msgstr "مخطط المستند"
 
@@ -3424,7 +3463,7 @@ msgstr "مخطط المستند"
 msgid "Overrides the page title in search engine results"
 msgstr "يَحل محل عنوان الصفحة في نتائج محركات البحث"
 
-#: packages/admin/src/components/ContentEditor.tsx:916
+#: packages/admin/src/components/ContentEditor.tsx:912
 msgid "Ownership"
 msgstr "الملكية"
 
@@ -3454,11 +3493,7 @@ msgstr "جزء من حلقة إعادة توجيه لا منتهية"
 msgid "Pass"
 msgstr "نجح"
 
-#: packages/admin/src/components/SetupWizard.tsx:333
-msgid "Passkey"
-msgstr "مفتاح المرور"
-
-#: packages/admin/src/components/settings/SecuritySettings.tsx:98
+#: packages/admin/src/components/settings/SecuritySettings.tsx:99
 msgid "Passkey added successfully"
 msgstr "تم إضافة مفتاح المرور بنجاح"
 
@@ -3474,15 +3509,15 @@ msgstr "اسم مفتاح المرور (اختياري)"
 msgid "Passkey registered successfully!"
 msgstr "تم تسجيل مفتاح المرور بنجاح!"
 
-#: packages/admin/src/components/settings/SecuritySettings.tsx:76
+#: packages/admin/src/components/settings/SecuritySettings.tsx:77
 msgid "Passkey removed"
 msgstr "تم إزالة مفتاح المرور"
 
-#: packages/admin/src/components/settings/SecuritySettings.tsx:60
+#: packages/admin/src/components/settings/SecuritySettings.tsx:61
 msgid "Passkey renamed"
 msgstr "تم إعادة تسمية مفتاح المرور"
 
-#: packages/admin/src/components/settings/SecuritySettings.tsx:181
+#: packages/admin/src/components/settings/SecuritySettings.tsx:182
 msgid "Passkeys"
 msgstr "مفاتيح المرور"
 
@@ -3491,17 +3526,13 @@ msgstr "مفاتيح المرور"
 msgid "Passkeys ({0})"
 msgstr "مفاتيح المرور ({0})"
 
-#: packages/admin/src/components/settings/SecuritySettings.tsx:185
+#: packages/admin/src/components/settings/SecuritySettings.tsx:186
 msgid "Passkeys are a secure, passwordless way to sign in to your account. You can register multiple passkeys for different devices."
 msgstr "مفاتيح المرور هي طريقة آمنة وبدون كلمة مرور لتسجيل الدخول إلى حسابك. يمكنك تسجيل مفاتيح مرور متعددة لأجهزة مختلفة."
 
 #: packages/admin/src/components/SignupPage.tsx:212
 msgid "Passkeys are a secure, passwordless way to sign in using your device's biometrics, PIN, or security key."
 msgstr "مفاتيح المرور هي طريقة آمنة خالية من كلمات المرور لتسجيل الدخول باستخدام القياسات الحيوية لجهازك أو رمز PIN أو مفتاح الأمان."
-
-#: packages/admin/src/components/SetupWizard.tsx:297
-msgid "Passkeys are more secure than passwords. You'll use your device's biometrics, PIN, or security key to sign in."
-msgstr "مفاتيح المرور أكثر أمانًا من كلمات المرور. ستستخدم القياسات الحيوية لجهازك أو رمز PIN أو مفتاح الأمان لتسجيل الدخول."
 
 #: packages/admin/src/components/auth/PasskeyLogin.tsx:303
 #: packages/admin/src/components/auth/PasskeyRegistration.tsx:300
@@ -3526,36 +3557,40 @@ msgid "Pattern (Regex)"
 msgstr "النمط (Regex)"
 
 #: packages/admin/src/components/comments/CommentDetail.tsx:196
-#: packages/admin/src/components/ContentList.tsx:576
+#: packages/admin/src/components/ContentList.tsx:691
 msgid "pending"
 msgstr "معلّق"
 
-#: packages/admin/src/components/comments/CommentInbox.tsx:204
+#: packages/admin/src/components/comments/CommentInbox.tsx:197
 msgid "Pending"
 msgstr "معلّق"
 
-#: packages/admin/src/components/ContentEditor.tsx:791
+#: packages/admin/src/components/ContentEditor.tsx:787
 msgid "Pending changes"
 msgstr "تغييرات معلّقة"
 
-#: packages/admin/src/components/ContentList.tsx:510
+#: packages/admin/src/components/ContentList.tsx:625
 msgid "Permanently delete \"{title}\"? This cannot be undone."
 msgstr "حذف \"{title}\" نهائيًا؟ لا يمكن التراجع عن هذا الإجراء."
 
-#: packages/admin/src/components/ContentList.tsx:499
+#: packages/admin/src/components/ContentList.tsx:614
 msgid "Permanently delete {title}"
 msgstr "حذف {title} نهائيًا"
 
-#: packages/admin/src/components/MarketplacePluginDetail.tsx:284
+#: packages/admin/src/components/MarketplacePluginDetail.tsx:275
 msgid "Permissions"
 msgstr "الصلاحيات"
+
+#: packages/admin/src/components/SetupWizard.tsx:319
+msgid "Pick any method to create your admin account."
+msgstr ""
 
 #: packages/admin/src/components/auth/PasskeyLogin.tsx:313
 #: packages/admin/src/components/auth/PasskeyRegistration.tsx:310
 msgid "Plain"
 msgstr "عادي"
 
-#: packages/admin/src/components/SetupWizard.tsx:206
+#: packages/admin/src/components/SetupWizard.tsx:210
 msgid "Please enter a valid email"
 msgstr "يرجى إدخال بريد إلكتروني صحيح"
 
@@ -3579,7 +3614,7 @@ msgstr "تم تعطيل الإضافة"
 msgid "Plugin enabled"
 msgstr "تم تفعيل الإضافة"
 
-#: packages/admin/src/components/MarketplacePluginDetail.tsx:122
+#: packages/admin/src/components/MarketplacePluginDetail.tsx:113
 msgid "Plugin not found"
 msgstr "لم يتم العثور على الإضافة"
 
@@ -3603,12 +3638,12 @@ msgstr "تم تحديث الإضافة"
 #: packages/admin/src/components/PluginManager.tsx:125
 #: packages/admin/src/components/PluginManager.tsx:134
 #: packages/admin/src/components/PluginManager.tsx:143
-#: packages/admin/src/components/Sidebar.tsx:207
-#: packages/admin/src/components/Sidebar.tsx:438
+#: packages/admin/src/components/Sidebar.tsx:212
+#: packages/admin/src/components/Sidebar.tsx:450
 msgid "Plugins"
 msgstr "الإضافات"
 
-#: packages/admin/src/components/SeoPanel.tsx:177
+#: packages/admin/src/components/SeoPanel.tsx:179
 msgid "Points search engines to the original version of this page, if it's duplicated from another URL"
 msgstr "يرشد محركات البحث إلى النسخة الأصلية من هذه الصفحة، إذا كانت مكررة من رابط آخر"
 
@@ -3616,7 +3651,7 @@ msgstr "يرشد محركات البحث إلى النسخة الأصلية من
 msgid "Posts"
 msgstr "المنشورات"
 
-#: packages/admin/src/components/settings/GeneralSettings.tsx:270
+#: packages/admin/src/components/settings/GeneralSettings.tsx:264
 msgid "Posts Per Page"
 msgstr "المنشورات لكل صفحة"
 
@@ -3629,34 +3664,34 @@ msgid "Preparing to download files from WordPress..."
 msgstr "جاري التحضير لتنزيل الملفات من WordPress..."
 
 #: packages/admin/src/components/auth/PasskeyLogin.tsx:166
-#: packages/admin/src/components/SetupWizard.tsx:258
+#: packages/admin/src/components/SetupWizard.tsx:262
 msgid "Preparing..."
 msgstr "جاري التحضير..."
 
-#: packages/admin/src/components/ContentEditor.tsx:610
-#: packages/admin/src/components/ContentTypeEditor.tsx:79
+#: packages/admin/src/components/ContentEditor.tsx:606
+#: packages/admin/src/components/ContentTypeEditor.tsx:72
 #: packages/admin/src/components/MediaLibrary.tsx:415
 msgid "Preview"
 msgstr "معاينة"
 
-#: packages/admin/src/components/ContentTypeEditor.tsx:80
+#: packages/admin/src/components/ContentTypeEditor.tsx:73
 msgid "Preview content before publishing"
 msgstr "معاينة المحتوى قبل النشر"
 
-#: packages/admin/src/components/ContentEditor.tsx:610
+#: packages/admin/src/components/ContentEditor.tsx:606
 msgid "Preview draft"
 msgstr "معاينة المسودة"
 
-#: packages/admin/src/components/ThemeMarketplaceDetail.tsx:314
+#: packages/admin/src/components/ThemeMarketplaceDetail.tsx:312
 msgid "Previous"
 msgstr "السابق"
 
-#: packages/admin/src/components/comments/CommentInbox.tsx:359
-#: packages/admin/src/components/ContentList.tsx:266
+#: packages/admin/src/components/comments/CommentInbox.tsx:352
+#: packages/admin/src/components/ContentList.tsx:306
 msgid "Previous page"
 msgstr "الصفحة السابقة"
 
-#: packages/admin/src/components/MarketplacePluginDetail.tsx:456
+#: packages/admin/src/components/MarketplacePluginDetail.tsx:447
 msgid "Previous screenshot"
 msgstr "لقطة الشاشة السابقة"
 
@@ -3668,56 +3703,60 @@ msgstr "التنقل الرئيسي"
 msgid "Provider:"
 msgstr "المزود:"
 
-#: packages/admin/src/components/ContentEditor.tsx:665
-#: packages/admin/src/components/ContentEditor.tsx:772
+#: packages/admin/src/components/ContentEditor.tsx:661
+#: packages/admin/src/components/ContentEditor.tsx:768
 msgid "Publish"
 msgstr "نشر"
 
-#: packages/admin/src/components/ContentEditor.tsx:655
+#: packages/admin/src/components/ContentEditor.tsx:651
 msgid "Publish changes"
 msgstr "نشر التغييرات"
 
-#: packages/admin/src/components/ContentList.tsx:551
+#: packages/admin/src/components/ContentList.tsx:666
 msgid "published"
 msgstr "منشور"
 
-#: packages/admin/src/components/ContentEditor.tsx:787
+#: packages/admin/src/components/ContentEditor.tsx:783
 #: packages/admin/src/components/ContentPickerModal.tsx:214
 #: packages/admin/src/components/Dashboard.tsx:187
 msgid "Published"
 msgstr "منشور"
 
 #. placeholder {0}: new Date(latest.publishedAt).toLocaleDateString()
-#: packages/admin/src/components/MarketplacePluginDetail.tsx:337
+#: packages/admin/src/components/MarketplacePluginDetail.tsx:328
 msgid "Published {0}"
 msgstr "تم نشر {0}"
 
-#: packages/admin/src/components/ContentTypeEditor.tsx:133
+#: packages/admin/src/components/ContentTypeEditor.tsx:126
 msgid "Published At"
 msgstr "تم النشر في"
 
-#: packages/admin/src/components/ContentEditor.tsx:1784
+#: packages/admin/src/components/ContentEditor.tsx:1785
 msgid "Quick create byline"
 msgstr "إنشاء اسم مؤلف بشكل سريع"
 
 #: packages/admin/src/components/editor/BlockMenu.tsx:85
-#: packages/admin/src/components/PortableTextEditor.tsx:749
+#: packages/admin/src/components/PortableTextEditor.tsx:776
 msgid "Quote"
 msgstr "إقتباس"
 
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:75
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:67
 msgid "Read collection schemas"
 msgstr "قراءة مخططات المجموعات"
 
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:55
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:47
 msgid "Read content entries"
 msgstr "قراءة مدخلات المحتوى"
 
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:65
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:57
 msgid "Read media files"
 msgstr "قراءة ملفات الوسائط"
 
-#: packages/admin/src/components/settings/GeneralSettings.tsx:267
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:87
+msgid "Read site settings"
+msgstr ""
+
+#: packages/admin/src/components/settings/GeneralSettings.tsx:261
 msgid "Reading"
 msgstr "القراءة"
 
@@ -3748,7 +3787,7 @@ msgstr "جاري إعادة التوجيه إلى تسجيل الدخول..."
 
 #: packages/admin/src/components/Redirects.tsx:333
 #: packages/admin/src/components/Redirects.tsx:352
-#: packages/admin/src/components/Sidebar.tsx:191
+#: packages/admin/src/components/Sidebar.tsx:196
 msgid "Redirects"
 msgstr "إعادات التوجيه"
 
@@ -3761,7 +3800,7 @@ msgid "Register"
 msgstr "تسجيل"
 
 #: packages/admin/src/components/auth/PasskeyRegistration.tsx:146
-#: packages/admin/src/components/settings/SecuritySettings.tsx:224
+#: packages/admin/src/components/settings/SecuritySettings.tsx:225
 msgid "Register Passkey"
 msgstr "تسجيل مفتاح المرور"
 
@@ -3773,10 +3812,10 @@ msgstr "مستخدم مسجل"
 msgid "Registration was cancelled or timed out. Please try again."
 msgstr "تم إلغاء التسجيل أو انتهت مهلته. يرجى المحاولة مجددًا."
 
-#: packages/admin/src/components/ContentEditor.tsx:1753
+#: packages/admin/src/components/ContentEditor.tsx:1754
 #: packages/admin/src/components/editor/ImageDetailPanel.tsx:177
-#: packages/admin/src/components/settings/GeneralSettings.tsx:202
-#: packages/admin/src/components/settings/GeneralSettings.tsx:246
+#: packages/admin/src/components/settings/GeneralSettings.tsx:196
+#: packages/admin/src/components/settings/GeneralSettings.tsx:240
 #: packages/admin/src/components/settings/PasskeyItem.tsx:187
 #: packages/admin/src/components/settings/PasskeyItem.tsx:209
 msgid "Remove"
@@ -3797,7 +3836,7 @@ msgstr "إزالة النطاق"
 msgid "Remove Domain?"
 msgstr "إزالة النطاق؟"
 
-#: packages/admin/src/components/ContentEditor.tsx:1582
+#: packages/admin/src/components/ContentEditor.tsx:1583
 #: packages/admin/src/components/SeoImageField.tsx:55
 msgid "Remove image"
 msgstr "إزالة الصورة"
@@ -3812,7 +3851,8 @@ msgid "Remove Image?"
 msgstr "إزالة الصورة؟"
 
 #. placeholder {0}: index + 1
-#: packages/admin/src/components/RepeaterField.tsx:254
+#: packages/admin/src/components/PortableTextEditor.tsx:1509
+#: packages/admin/src/components/RepeaterField.tsx:269
 msgid "Remove item {0}"
 msgstr "إزالة العنصر {0}"
 
@@ -3868,7 +3908,7 @@ msgstr "استبدال الصورة"
 msgid "Reply to:"
 msgstr "رد على:"
 
-#: packages/admin/src/components/ThemeMarketplaceDetail.tsx:226
+#: packages/admin/src/components/ThemeMarketplaceDetail.tsx:224
 msgid "Repository"
 msgstr "المستودع"
 
@@ -3891,7 +3931,7 @@ msgid "Required for accessibility. Describes the image for screen readers."
 msgstr "مطلوب لإمكانية الوصول. يصف الصورة لقارئات الشاشة."
 
 #. placeholder {0}: latest.minEmDashVersion
-#: packages/admin/src/components/MarketplacePluginDetail.tsx:335
+#: packages/admin/src/components/MarketplacePluginDetail.tsx:326
 msgid "Requires EmDash {0}"
 msgstr "يتطلب EmDash {0}"
 
@@ -3912,7 +3952,7 @@ msgstr "إعادة التعيين إلى الأصل"
 msgid "Restore"
 msgstr "استعادة"
 
-#: packages/admin/src/components/ContentList.tsx:487
+#: packages/admin/src/components/ContentList.tsx:602
 msgid "Restore {title}"
 msgstr "استعادة {title}"
 
@@ -3955,20 +3995,20 @@ msgstr "مراجعة الصلاحيات الجديدة"
 msgid "Revision restored"
 msgstr "تم استعادة المراجعة"
 
-#: packages/admin/src/components/ContentTypeEditor.tsx:74
+#: packages/admin/src/components/ContentTypeEditor.tsx:67
 #: packages/admin/src/components/RevisionHistory.tsx:161
 msgid "Revisions"
 msgstr "المراجعات"
 
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:326
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:338
 msgid "Revoke token"
 msgstr "إبطال الرمز"
 
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:301
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:313
 msgid "Revoke?"
 msgstr "إبطال؟"
 
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:308
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:320
 msgid "Revoking..."
 msgstr "جاري الإبطال..."
 
@@ -3976,7 +4016,7 @@ msgstr "جاري الإبطال..."
 msgid "Rich Text"
 msgstr "نص منسق"
 
-#: packages/admin/src/components/Widgets.tsx:91
+#: packages/admin/src/components/Widgets.tsx:97
 msgid "Rich text content"
 msgstr "محتوى نصي منسق"
 
@@ -3985,7 +4025,7 @@ msgid "Rich text editor"
 msgstr "محرر النص المنسق"
 
 #. placeholder {0}: latest.audit.riskScore
-#: packages/admin/src/components/MarketplacePluginDetail.tsx:322
+#: packages/admin/src/components/MarketplacePluginDetail.tsx:313
 msgid "Risk score: {0}/100"
 msgstr "درجة المخاطرة: {0}/100"
 
@@ -3999,7 +4039,7 @@ msgstr "الدور"
 msgid "Role {role}"
 msgstr "الدور {role}"
 
-#: packages/admin/src/components/ContentEditor.tsx:1758
+#: packages/admin/src/components/ContentEditor.tsx:1759
 msgid "Role label"
 msgstr "تسمية الدور"
 
@@ -4010,7 +4050,7 @@ msgstr "تسمية الدور"
 msgid "Same window"
 msgstr "نفس النافذة"
 
-#: packages/admin/src/components/ContentEditor.tsx:1891
+#: packages/admin/src/components/ContentEditor.tsx:1892
 #: packages/admin/src/components/editor/ImageDetailPanel.tsx:349
 #: packages/admin/src/components/editor/ImageDetailPanel.tsx:519
 #: packages/admin/src/components/MediaDetailPanel.tsx:241
@@ -4024,7 +4064,7 @@ msgstr "حفظ"
 msgid "Save Changes"
 msgstr "حفظ التغييرات"
 
-#: packages/admin/src/components/ContentTypeEditor.tsx:70
+#: packages/admin/src/components/ContentTypeEditor.tsx:63
 msgid "Save content as draft before publishing"
 msgstr "حفظ المحتوى كمسودة قبل النشر"
 
@@ -4032,60 +4072,60 @@ msgstr "حفظ المحتوى كمسودة قبل النشر"
 msgid "Save name"
 msgstr "حفظ الاسم"
 
-#: packages/admin/src/components/settings/SeoSettings.tsx:164
+#: packages/admin/src/components/settings/SeoSettings.tsx:159
 msgid "Save SEO Settings"
 msgstr "حفظ إعدادات تحسين محركات البحث"
 
-#: packages/admin/src/components/settings/GeneralSettings.tsx:296
+#: packages/admin/src/components/settings/GeneralSettings.tsx:290
 msgid "Save Settings"
 msgstr "حفظ الإعدادات"
 
-#: packages/admin/src/components/settings/SocialSettings.tsx:169
+#: packages/admin/src/components/settings/SocialSettings.tsx:170
 msgid "Save Social Links"
 msgstr "حفظ روابط التواصل الاجتماعي"
 
-#: packages/admin/src/components/ContentEditor.tsx:585
+#: packages/admin/src/components/ContentEditor.tsx:581
 #: packages/admin/src/components/SaveButton.tsx:42
 msgid "Saved"
 msgstr "تم الحفظ"
 
-#: packages/admin/src/components/ContentEditor.tsx:580
-#: packages/admin/src/components/ContentEditor.tsx:1891
+#: packages/admin/src/components/ContentEditor.tsx:576
+#: packages/admin/src/components/ContentEditor.tsx:1892
 #: packages/admin/src/components/FieldEditor.tsx:656
 #: packages/admin/src/components/MediaDetailPanel.tsx:241
 #: packages/admin/src/components/MenuEditor.tsx:442
 #: packages/admin/src/components/Redirects.tsx:181
 #: packages/admin/src/components/SaveButton.tsx:42
-#: packages/admin/src/components/settings/GeneralSettings.tsx:296
-#: packages/admin/src/components/settings/SeoSettings.tsx:164
-#: packages/admin/src/components/settings/SocialSettings.tsx:169
+#: packages/admin/src/components/settings/GeneralSettings.tsx:290
+#: packages/admin/src/components/settings/SeoSettings.tsx:159
+#: packages/admin/src/components/settings/SocialSettings.tsx:170
 #: packages/admin/src/components/TaxonomyManager.tsx:308
 #: packages/admin/src/components/users/UserDetail.tsx:311
 msgid "Saving..."
 msgstr "جاري الحفظ..."
 
-#: packages/admin/src/components/ContentEditor.tsx:831
+#: packages/admin/src/components/ContentEditor.tsx:827
 msgid "Schedule"
 msgstr "جدولة"
 
-#: packages/admin/src/components/ContentEditor.tsx:817
+#: packages/admin/src/components/ContentEditor.tsx:813
 msgid "Schedule for"
 msgstr "جدولة لـ"
 
-#: packages/admin/src/components/ContentEditor.tsx:854
+#: packages/admin/src/components/ContentEditor.tsx:850
 msgid "Schedule for later"
 msgstr "جدولة لوقت لاحق"
 
-#: packages/admin/src/components/ContentList.tsx:555
+#: packages/admin/src/components/ContentList.tsx:670
 msgid "scheduled"
 msgstr "مجدول"
 
-#: packages/admin/src/components/ContentEditor.tsx:794
+#: packages/admin/src/components/ContentEditor.tsx:790
 msgid "Scheduled"
 msgstr "مجدول"
 
 #. placeholder {0}: formatScheduledDate(item.scheduledAt)
-#: packages/admin/src/components/ContentEditor.tsx:804
+#: packages/admin/src/components/ContentEditor.tsx:800
 msgid "Scheduled for: {0}"
 msgstr "مجدول لـ: {0}"
 
@@ -4097,69 +4137,69 @@ msgstr "تغييرات المخطط"
 msgid "Schema preparation failed"
 msgstr "فشل تجهيز المخطط"
 
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:74
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:66
 msgid "Schema Read"
 msgstr "قراءة المخطط"
 
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:79
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:71
 msgid "Schema Write"
 msgstr "كتابة المخطط"
 
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:409
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:421
 msgid "Scopes"
 msgstr "النطاقات"
 
 #. placeholder {0}: token.scopes.join(", ")
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:277
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:289
 msgid "Scopes: {0}"
 msgstr "النطاقات: {0}"
 
 #. placeholder {0}: i + 1
 #. placeholder {0}: index + 1
-#: packages/admin/src/components/MarketplacePluginDetail.tsx:254
-#: packages/admin/src/components/ThemeMarketplaceDetail.tsx:180
-#: packages/admin/src/components/ThemeMarketplaceDetail.tsx:299
+#: packages/admin/src/components/MarketplacePluginDetail.tsx:245
+#: packages/admin/src/components/ThemeMarketplaceDetail.tsx:178
+#: packages/admin/src/components/ThemeMarketplaceDetail.tsx:297
 msgid "Screenshot {0}"
 msgstr "لقطة الشاشة {0}"
 
 #. placeholder {0}: index + 1
 #. placeholder {1}: screenshots.length
-#: packages/admin/src/components/MarketplacePluginDetail.tsx:464
+#: packages/admin/src/components/MarketplacePluginDetail.tsx:455
 msgid "Screenshot {0} of {1}"
 msgstr "لقطة الشاشة {0} من {1}"
 
-#: packages/admin/src/components/MarketplacePluginDetail.tsx:257
+#: packages/admin/src/components/MarketplacePluginDetail.tsx:248
 msgid "Screenshot blurred due to image audit"
 msgstr "تم تعتيم لقطة الشاشة بسبب التدقيق على الصورة"
 
-#: packages/admin/src/components/MarketplacePluginDetail.tsx:442
+#: packages/admin/src/components/MarketplacePluginDetail.tsx:433
 msgid "Screenshot viewer"
 msgstr "عارض لقطات الشاشة"
 
-#: packages/admin/src/components/MarketplacePluginDetail.tsx:244
-#: packages/admin/src/components/ThemeMarketplaceDetail.tsx:170
+#: packages/admin/src/components/MarketplacePluginDetail.tsx:235
+#: packages/admin/src/components/ThemeMarketplaceDetail.tsx:168
 msgid "Screenshots"
 msgstr "لقطات الشاشة"
 
-#: packages/admin/src/components/ContentTypeEditor.tsx:84
+#: packages/admin/src/components/ContentTypeEditor.tsx:77
 msgid "Search"
 msgstr "بحث"
 
 #. placeholder {0}: collectionLabel.toLowerCase()
-#: packages/admin/src/components/ContentList.tsx:151
+#: packages/admin/src/components/ContentList.tsx:170
 msgid "Search {0}"
 msgstr "بحث {0}"
 
 #. placeholder {0}: collectionLabel.toLowerCase()
-#: packages/admin/src/components/ContentList.tsx:150
+#: packages/admin/src/components/ContentList.tsx:169
 msgid "Search {0}..."
 msgstr "بحث {0}..."
 
-#: packages/admin/src/components/comments/CommentInbox.tsx:170
+#: packages/admin/src/components/comments/CommentInbox.tsx:163
 msgid "Search comments"
 msgstr "البحث في التعليقات"
 
-#: packages/admin/src/components/comments/CommentInbox.tsx:169
+#: packages/admin/src/components/comments/CommentInbox.tsx:162
 msgid "Search comments..."
 msgstr "البحث في التعليقات..."
 
@@ -4167,7 +4207,7 @@ msgstr "البحث في التعليقات..."
 msgid "Search content..."
 msgstr "البحث في المحتوى..."
 
-#: packages/admin/src/components/settings/SeoSettings.tsx:130
+#: packages/admin/src/components/settings/SeoSettings.tsx:125
 msgid "Search Engine Optimization"
 msgstr "تحسين محركات البحث"
 
@@ -4209,7 +4249,7 @@ msgstr "بحث..."
 msgid "Searchable"
 msgstr "قابل للبحث"
 
-#: packages/admin/src/components/PortableTextEditor.tsx:1427
+#: packages/admin/src/components/PortableTextEditor.tsx:1794
 msgid "Section"
 msgstr "قسم"
 
@@ -4243,7 +4283,7 @@ msgstr "عنوان القسم"
 
 #: packages/admin/src/components/AdminCommandPalette.tsx:177
 #: packages/admin/src/components/Sections.tsx:132
-#: packages/admin/src/components/Sidebar.tsx:193
+#: packages/admin/src/components/Sidebar.tsx:198
 msgid "Sections"
 msgstr "أقسام"
 
@@ -4252,7 +4292,7 @@ msgstr "أقسام"
 msgid "secure context"
 msgstr "سياق آمن"
 
-#: packages/admin/src/components/SetupWizard.tsx:496
+#: packages/admin/src/components/SetupWizard.tsx:574
 msgid "Secure your account"
 msgstr "تأمين حسابك"
 
@@ -4260,7 +4300,7 @@ msgstr "تأمين حسابك"
 msgid "Security"
 msgstr "الأمن"
 
-#: packages/admin/src/components/MarketplacePluginDetail.tsx:318
+#: packages/admin/src/components/MarketplacePluginDetail.tsx:309
 msgid "Security Audit"
 msgstr "التدقيق الأمني"
 
@@ -4291,7 +4331,7 @@ msgstr "خطأ أمني. تأكد من أنك على اتصال آمن."
 
 #: packages/admin/src/components/AdminCommandPalette.tsx:243
 #: packages/admin/src/components/Header.tsx:85
-#: packages/admin/src/components/settings/SecuritySettings.tsx:108
+#: packages/admin/src/components/settings/SecuritySettings.tsx:109
 msgid "Security Settings"
 msgstr "إعدادات الأمن"
 
@@ -4300,20 +4340,20 @@ msgstr "إعدادات الأمن"
 msgid "Select"
 msgstr "اختيار"
 
-#: packages/admin/src/components/ContentEditor.tsx:1606
+#: packages/admin/src/components/ContentEditor.tsx:1607
 msgid "Select {label}"
 msgstr "اختيار {label}"
 
-#: packages/admin/src/components/comments/CommentInbox.tsx:290
+#: packages/admin/src/components/comments/CommentInbox.tsx:283
 msgid "Select all"
 msgstr "اختيار الكل"
 
-#: packages/admin/src/components/ContentEditor.tsx:1697
+#: packages/admin/src/components/ContentEditor.tsx:1698
 msgid "Select byline..."
 msgstr "اختيار اسم مؤلف..."
 
 #. placeholder {0}: comment.authorName
-#: packages/admin/src/components/comments/CommentInbox.tsx:463
+#: packages/admin/src/components/comments/CommentInbox.tsx:456
 msgid "Select comment by {0}"
 msgstr "اختيار تعليق {0}"
 
@@ -4321,12 +4361,12 @@ msgstr "اختيار تعليق {0}"
 msgid "Select Content"
 msgstr "اختيار المحتوى"
 
-#: packages/admin/src/components/settings/GeneralSettings.tsx:258
-#: packages/admin/src/components/settings/GeneralSettings.tsx:314
+#: packages/admin/src/components/settings/GeneralSettings.tsx:252
+#: packages/admin/src/components/settings/GeneralSettings.tsx:308
 msgid "Select Favicon"
 msgstr "اختيار أيقونة المتصفح"
 
-#: packages/admin/src/components/ContentEditor.tsx:1597
+#: packages/admin/src/components/ContentEditor.tsx:1598
 msgid "Select image"
 msgstr "اختيار صورة"
 
@@ -4334,8 +4374,8 @@ msgstr "اختيار صورة"
 msgid "Select Image"
 msgstr "اختيار صورة"
 
-#: packages/admin/src/components/settings/GeneralSettings.tsx:214
-#: packages/admin/src/components/settings/GeneralSettings.tsx:307
+#: packages/admin/src/components/settings/GeneralSettings.tsx:208
+#: packages/admin/src/components/settings/GeneralSettings.tsx:301
 msgid "Select Logo"
 msgstr "اختيار الشعار"
 
@@ -4351,7 +4391,7 @@ msgstr "اختيار صورة OG"
 msgid "Select which content types to import."
 msgstr "اختر أنواع المحتوى المراد استيرادها."
 
-#: packages/admin/src/components/RepeaterField.tsx:349
+#: packages/admin/src/components/RepeaterField.tsx:366
 msgid "Select..."
 msgstr "اختيار..."
 
@@ -4376,7 +4416,7 @@ msgstr "أرسل بريدًا إلكترونيًا دعوةً لعضو فريق 
 msgid "Send Invite"
 msgstr "إرسال الدعوة"
 
-#: packages/admin/src/components/LoginPage.tsx:206
+#: packages/admin/src/components/LoginPage.tsx:149
 msgid "Send magic link"
 msgstr "إرسال رابط سحري"
 
@@ -4392,7 +4432,7 @@ msgstr "إرسال تجريبي"
 msgid "Send Test Email"
 msgstr "إرسال بريد إلكتروني تجريبي"
 
-#: packages/admin/src/components/LoginPage.tsx:206
+#: packages/admin/src/components/LoginPage.tsx:149
 #: packages/admin/src/components/settings/EmailSettings.tsx:162
 #: packages/admin/src/components/SignupPage.tsx:87
 #: packages/admin/src/components/SignupPage.tsx:150
@@ -4401,13 +4441,13 @@ msgstr "إرسال بريد إلكتروني تجريبي"
 msgid "Sending..."
 msgstr "جاري الإرسال..."
 
-#: packages/admin/src/components/ContentEditor.tsx:1006
+#: packages/admin/src/components/ContentEditor.tsx:1002
 #: packages/admin/src/components/Settings.tsx:81
 msgid "SEO"
 msgstr "تحسين محركات البحث"
 
-#: packages/admin/src/components/settings/SeoSettings.tsx:87
-#: packages/admin/src/components/settings/SeoSettings.tsx:105
+#: packages/admin/src/components/settings/SeoSettings.tsx:82
+#: packages/admin/src/components/settings/SeoSettings.tsx:100
 msgid "SEO Settings"
 msgstr "إعدادات تحسين محركات البحث"
 
@@ -4415,7 +4455,7 @@ msgstr "إعدادات تحسين محركات البحث"
 msgid "SEO settings (Yoast)"
 msgstr "إعدادات تحسين محركات البحث (Yoast)"
 
-#: packages/admin/src/components/settings/SeoSettings.tsx:53
+#: packages/admin/src/components/settings/SeoSettings.tsx:48
 msgid "SEO settings saved"
 msgstr "تم حفظ إعدادات تحسين محركات البحث"
 
@@ -4428,15 +4468,11 @@ msgstr "عنوان تحسين محركات البحث"
 msgid "Set a custom display size for this image instance."
 msgstr "عيّن حجم عرض مخصص لنسخة هذه الصورة."
 
-#: packages/admin/src/components/SetupWizard.tsx:295
-msgid "Set up your passkey"
-msgstr "إعداد مفتاح مرورك"
-
-#: packages/admin/src/components/SetupWizard.tsx:494
+#: packages/admin/src/components/SetupWizard.tsx:572
 msgid "Set up your site"
 msgstr "إعداد موقعك"
 
-#: packages/admin/src/components/SetupWizard.tsx:175
+#: packages/admin/src/components/SetupWizard.tsx:179
 msgid "Setting up..."
 msgstr "جاري الإعداد..."
 
@@ -4445,12 +4481,20 @@ msgstr "جاري الإعداد..."
 #: packages/admin/src/components/PluginManager.tsx:378
 #: packages/admin/src/components/PluginManager.tsx:380
 #: packages/admin/src/components/Settings.tsx:62
-#: packages/admin/src/components/Sidebar.tsx:224
+#: packages/admin/src/components/Sidebar.tsx:229
 #: packages/admin/src/components/WordPressImport.tsx:1655
 msgid "Settings"
 msgstr "الإعدادات"
 
-#: packages/admin/src/components/settings/GeneralSettings.tsx:59
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:91
+msgid "Settings Manage"
+msgstr ""
+
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:86
+msgid "Settings Read"
+msgstr ""
+
+#: packages/admin/src/components/settings/GeneralSettings.tsx:53
 msgid "Settings saved successfully"
 msgstr "تم حفظ الإعدادات بنجاح"
 
@@ -4463,7 +4507,7 @@ msgstr "شارك هذا الرابط مع المستخدم المدعو"
 msgid "Short Text"
 msgstr "نص قصير"
 
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:203
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:215
 msgid "Show token"
 msgstr "عرض الرمز"
 
@@ -4476,24 +4520,35 @@ msgstr "يُعرض عند التحويم فوق الصورة."
 msgid "Sign in"
 msgstr "تسجيل الدخول"
 
+#: packages/admin/src/components/SetupWizard.tsx:384
+msgid "Sign In"
+msgstr ""
+
 #: packages/admin/src/components/SignupPage.tsx:269
 msgid "Sign in instead"
 msgstr "تسجيل الدخول بدلًا من ذلك"
 
-#: packages/admin/src/components/LoginPage.tsx:283
+#: packages/admin/src/components/LoginPage.tsx:232
 msgid "Sign in to your site"
 msgstr "قم بتسجيل الدخول إلى موقعك"
 
-#: packages/admin/src/components/LoginPage.tsx:284
+#. placeholder {0}: authProviderList.find((p) => p.id === activeProvider)?.label ?? activeProvider
+#. placeholder {0}: provider.label
+#: packages/admin/src/components/LoginPage.tsx:231
+#: packages/admin/src/components/SetupWizard.tsx:293
+msgid "Sign in with {0}"
+msgstr ""
+
+#: packages/admin/src/components/LoginPage.tsx:229
 msgid "Sign in with email"
 msgstr "تسجيل الدخول بالبريد الإلكتروني"
 
-#: packages/admin/src/components/LoginPage.tsx:340
+#: packages/admin/src/components/LoginPage.tsx:290
 msgid "Sign in with email link"
 msgstr "تسجيل الدخول برابط البريد الإلكتروني"
 
 #: packages/admin/src/components/auth/PasskeyLogin.tsx:136
-#: packages/admin/src/components/LoginPage.tsx:304
+#: packages/admin/src/components/LoginPage.tsx:252
 msgid "Sign in with Passkey"
 msgstr "تسجيل الدخول بمفتاح مرور"
 
@@ -4510,11 +4565,11 @@ msgstr "اختيار واحد من الخيارات المتاحة"
 msgid "Single line text input"
 msgstr "إدخال نص في سطر واحد"
 
-#: packages/admin/src/components/SetupWizard.tsx:331
+#: packages/admin/src/components/SetupWizard.tsx:382
 msgid "Site"
 msgstr "الموقع"
 
-#: packages/admin/src/components/settings/GeneralSettings.tsx:153
+#: packages/admin/src/components/settings/GeneralSettings.tsx:147
 msgid "Site Identity"
 msgstr "هوية الموقع"
 
@@ -4522,12 +4577,12 @@ msgstr "هوية الموقع"
 msgid "Site identity, logo, favicon, and reading preferences"
 msgstr "هوية الموقع، الشعار، أيقونة المتصفح، وإعدادات القراءة"
 
-#: packages/admin/src/components/SetupWizard.tsx:329
+#: packages/admin/src/components/SetupWizard.tsx:380
 msgid "Site Settings"
 msgstr "إعدادات الموقع"
 
-#: packages/admin/src/components/settings/GeneralSettings.tsx:156
-#: packages/admin/src/components/SetupWizard.tsx:141
+#: packages/admin/src/components/settings/GeneralSettings.tsx:150
+#: packages/admin/src/components/SetupWizard.tsx:145
 msgid "Site Title"
 msgstr "عنوان الموقع"
 
@@ -4535,11 +4590,11 @@ msgstr "عنوان الموقع"
 msgid "Site title & tagline"
 msgstr "عنوان الموقع والشعار الكتابي"
 
-#: packages/admin/src/components/SetupWizard.tsx:125
+#: packages/admin/src/components/SetupWizard.tsx:129
 msgid "Site title is required"
 msgstr "عنوان الموقع مطلوب"
 
-#: packages/admin/src/components/settings/GeneralSettings.tsx:168
+#: packages/admin/src/components/settings/GeneralSettings.tsx:162
 msgid "Site URL"
 msgstr "رابط الموقع"
 
@@ -4559,10 +4614,10 @@ msgstr "تخطي استيراد الوسائط"
 msgid "Skipped"
 msgstr "تم التخطي"
 
-#: packages/admin/src/components/ContentEditor.tsx:775
-#: packages/admin/src/components/ContentEditor.tsx:1800
-#: packages/admin/src/components/ContentEditor.tsx:1862
-#: packages/admin/src/components/ContentTypeEditor.tsx:109
+#: packages/admin/src/components/ContentEditor.tsx:771
+#: packages/admin/src/components/ContentEditor.tsx:1801
+#: packages/admin/src/components/ContentEditor.tsx:1863
+#: packages/admin/src/components/ContentTypeEditor.tsx:102
 #: packages/admin/src/components/ContentTypeList.tsx:97
 #: packages/admin/src/components/FieldEditor.tsx:224
 #: packages/admin/src/components/FieldEditor.tsx:407
@@ -4576,17 +4631,17 @@ msgstr "الاسم اللطيف"
 msgid "Slug copied to clipboard"
 msgstr "تم نسخ الاسم اللطيف إلى الحافظة"
 
-#: packages/admin/src/components/PortableTextEditor.tsx:720
+#: packages/admin/src/components/PortableTextEditor.tsx:747
 msgid "Small section heading"
 msgstr "عنوان قسم صغير"
 
 #: packages/admin/src/components/Settings.tsx:75
-#: packages/admin/src/components/settings/SocialSettings.tsx:81
-#: packages/admin/src/components/settings/SocialSettings.tsx:99
+#: packages/admin/src/components/settings/SocialSettings.tsx:82
+#: packages/admin/src/components/settings/SocialSettings.tsx:100
 msgid "Social Links"
 msgstr "روابط وسائل التواصل الاجتماعي"
 
-#: packages/admin/src/components/settings/SocialSettings.tsx:47
+#: packages/admin/src/components/settings/SocialSettings.tsx:48
 msgid "Social links saved"
 msgstr "تم حفظ روابط التواصل الاجتماعي"
 
@@ -4594,7 +4649,7 @@ msgstr "تم حفظ روابط التواصل الاجتماعي"
 msgid "Social media profile links"
 msgstr "روابط الملفات الشخصية في وسائل التواصل الاجتماعي"
 
-#: packages/admin/src/components/settings/SocialSettings.tsx:122
+#: packages/admin/src/components/settings/SocialSettings.tsx:123
 msgid "Social Profiles"
 msgstr "الملفات الشخصية في وسائل التواصل الاجتماعي"
 
@@ -4617,7 +4672,7 @@ msgstr "ترتيب المظاهر"
 #: packages/admin/src/components/ContentTypeList.tsx:100
 #: packages/admin/src/components/editor/ImageDetailPanel.tsx:325
 #: packages/admin/src/components/editor/ImageDetailPanel.tsx:490
-#: packages/admin/src/components/MarketplacePluginDetail.tsx:225
+#: packages/admin/src/components/MarketplacePluginDetail.tsx:216
 #: packages/admin/src/components/PluginManager.tsx:434
 #: packages/admin/src/components/Redirects.tsx:447
 #: packages/admin/src/components/SectionEditor.tsx:232
@@ -4633,8 +4688,8 @@ msgid "spam"
 msgstr "غير مرغوب فيه"
 
 #: packages/admin/src/components/comments/CommentDetail.tsx:159
-#: packages/admin/src/components/comments/CommentInbox.tsx:214
-#: packages/admin/src/components/comments/CommentInbox.tsx:254
+#: packages/admin/src/components/comments/CommentInbox.tsx:207
+#: packages/admin/src/components/comments/CommentInbox.tsx:247
 msgid "Spam"
 msgstr "غير مرغوب فيه"
 
@@ -4642,9 +4697,9 @@ msgstr "غير مرغوب فيه"
 msgid "Start Import"
 msgstr "بدء الاستيراد"
 
-#: packages/admin/src/components/ContentEditor.tsx:781
-#: packages/admin/src/components/ContentList.tsx:193
-#: packages/admin/src/components/ContentTypeEditor.tsx:115
+#: packages/admin/src/components/ContentEditor.tsx:777
+#: packages/admin/src/components/ContentList.tsx:218
+#: packages/admin/src/components/ContentTypeEditor.tsx:108
 #: packages/admin/src/components/Redirects.tsx:452
 msgid "Status"
 msgstr "الحالة"
@@ -4678,8 +4733,8 @@ msgstr "مفتاح مرور متزامن"
 msgid "System ({resolvedLabel})"
 msgstr "النظام ({resolvedLabel})"
 
-#: packages/admin/src/components/settings/GeneralSettings.tsx:162
-#: packages/admin/src/components/SetupWizard.tsx:152
+#: packages/admin/src/components/settings/GeneralSettings.tsx:156
+#: packages/admin/src/components/SetupWizard.tsx:156
 msgid "Tagline"
 msgstr "الشعار"
 
@@ -4705,6 +4760,10 @@ msgstr "الهدف"
 msgid "Taxonomies"
 msgstr "التصنيفات"
 
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:76
+msgid "Taxonomies Manage"
+msgstr ""
+
 #: packages/admin/src/components/TaxonomyManager.tsx:668
 msgid "Taxonomy created"
 msgstr "تم إنشاء التصنيف"
@@ -4713,7 +4772,7 @@ msgstr "تم إنشاء التصنيف"
 msgid "Taxonomy not found:"
 msgstr "لم يتم العثور على التصنيف:"
 
-#: packages/admin/src/components/SetupWizard.tsx:180
+#: packages/admin/src/components/SetupWizard.tsx:184
 msgid "Template:"
 msgstr "القالب:"
 
@@ -4746,7 +4805,7 @@ msgstr "الجداول التالية تحتوي على محتوى لكنها غ
 msgid "The invited user will have this role once they complete registration."
 msgstr "سيكون للمستخدم المدعو هذا الدور بمجرد إكمال التسجيل."
 
-#: packages/admin/src/components/LoginPage.tsx:170
+#: packages/admin/src/components/LoginPage.tsx:113
 #: packages/admin/src/components/SignupPage.tsx:138
 msgid "The link will expire in 15 minutes."
 msgstr "ستنتهي صلاحية الرابط بعد 15 دقيقة."
@@ -4759,11 +4818,11 @@ msgstr "السوق فارغ. تحقق لاحقًا للعثور على إضاف�
 msgid "The menu has been deleted."
 msgstr "تم حذف القائمة."
 
-#: packages/admin/src/components/settings/GeneralSettings.tsx:159
+#: packages/admin/src/components/settings/GeneralSettings.tsx:153
 msgid "The name of your site, used in the header and metadata"
 msgstr "اسم موقعك، يُستخدم في الترويسة والبيانات الوصفية"
 
-#: packages/admin/src/components/settings/GeneralSettings.tsx:172
+#: packages/admin/src/components/settings/GeneralSettings.tsx:166
 msgid "The public URL of your site (used for canonical links and sitemaps)"
 msgstr "الرابط العام لموقعك (يُستخدم للروابط الأساسية وخرائط الموقع)"
 
@@ -4780,7 +4839,7 @@ msgstr "المظهر"
 msgid "Theme ID: {0}"
 msgstr "معرف المظهر: {0}"
 
-#: packages/admin/src/components/ThemeMarketplaceDetail.tsx:93
+#: packages/admin/src/components/ThemeMarketplaceDetail.tsx:91
 msgid "Theme not found"
 msgstr "لم يتم العثور على المظهر"
 
@@ -4796,12 +4855,12 @@ msgstr "لا يمكن حذف الأقسام المزودة من مظهر. قم �
 msgid "Theme: {label}"
 msgstr "المظهر: {label}"
 
-#: packages/admin/src/components/Sidebar.tsx:218
+#: packages/admin/src/components/Sidebar.tsx:223
 #: packages/admin/src/components/ThemeMarketplaceBrowse.tsx:75
 msgid "Themes"
 msgstr "المظاهر"
 
-#: packages/admin/src/components/ContentEditor.tsx:1610
+#: packages/admin/src/components/ContentEditor.tsx:1611
 msgid "This field is required"
 msgstr "هذا الحقل مطلوب"
 
@@ -4825,7 +4884,7 @@ msgstr "قد يستغرق هذا بعض الوقت للتصديرات الكبي
 msgid "This passkey is already registered on this device."
 msgstr "مفتاح المرور هذا مسجل بالفعل على هذا الجهاز."
 
-#: packages/admin/src/components/MarketplacePluginDetail.tsx:287
+#: packages/admin/src/components/MarketplacePluginDetail.tsx:278
 msgid "This plugin requires no special permissions."
 msgstr "لا تتطلب هذه الإضافة صلاحيات خاصة."
 
@@ -4845,7 +4904,7 @@ msgstr "تم استيراد هذا القسم من نظام آخر."
 msgid "This will grant CLI access with your permissions."
 msgstr "سيمنح هذا وصول CLI بنفس صلاحياتك."
 
-#: packages/admin/src/components/ContentEditor.tsx:888
+#: packages/admin/src/components/ContentEditor.tsx:884
 msgid "This will move the item to trash. You can restore it later from the trash."
 msgstr "سيؤدي هذا إلى نقل العنصر إلى سلة المحذوفات. يمكنك استعادته لاحقًا من سلة المحذوفات."
 
@@ -4859,7 +4918,7 @@ msgstr "سيؤدي هذا إلى حذف \"{0}\" نهائيًا وإزالته م
 msgid "This will permanently delete \"{0}\". This action cannot be undone."
 msgstr "سيؤدي هذا إلى حذف \"{0}\" نهائيًا. لا يمكن التراجع عن هذا الإجراء."
 
-#: packages/admin/src/components/comments/CommentInbox.tsx:413
+#: packages/admin/src/components/comments/CommentInbox.tsx:406
 msgid "This will permanently delete this comment. This action cannot be undone."
 msgstr "سيؤدي هذا إلى حذف هذا التعليق نهائيًا. لا يمكن التراجع عن هذا الإجراء."
 
@@ -4867,24 +4926,24 @@ msgstr "سيؤدي هذا إلى حذف هذا التعليق نهائيًا. ل
 msgid "This will remove the plugin and its bundle from your site."
 msgstr "سيؤدي هذا إلى إزالة الإضافة وحزمتها من موقعك."
 
-#: packages/admin/src/components/ContentEditor.tsx:630
+#: packages/admin/src/components/ContentEditor.tsx:626
 msgid "This will revert to the published version. Your draft changes will be lost."
 msgstr "سيؤدي هذا إلى الرجوع إلى النسخة المنشورة. ستُفقد تغييرات المسودة."
 
-#: packages/admin/src/components/SetupWizard.tsx:156
+#: packages/admin/src/components/SetupWizard.tsx:160
 msgid "Thoughts, tutorials, and more"
 msgstr "أفكار، شروحات، والمزيد"
 
-#: packages/admin/src/components/settings/GeneralSettings.tsx:285
+#: packages/admin/src/components/settings/GeneralSettings.tsx:279
 msgid "Timezone"
 msgstr "المنطقة الزمنية"
 
-#: packages/admin/src/components/settings/GeneralSettings.tsx:288
+#: packages/admin/src/components/settings/GeneralSettings.tsx:282
 msgid "Timezone for displaying dates (e.g., America/New_York)"
 msgstr "المنطقة الزمنية لعرض التواريخ (مثال: America/New_York)"
 
-#: packages/admin/src/components/ContentList.tsx:190
-#: packages/admin/src/components/ContentList.tsx:303
+#: packages/admin/src/components/ContentList.tsx:212
+#: packages/admin/src/components/ContentList.tsx:343
 #: packages/admin/src/components/SectionEditor.tsx:189
 #: packages/admin/src/components/Sections.tsx:168
 msgid "Title"
@@ -4895,7 +4954,7 @@ msgstr "العنوان"
 msgid "Title (Tooltip)"
 msgstr "العنوان (تلميح)"
 
-#: packages/admin/src/components/settings/SeoSettings.tsx:134
+#: packages/admin/src/components/settings/SeoSettings.tsx:129
 msgid "Title Separator"
 msgstr "فاصل العنوان"
 
@@ -4917,11 +4976,11 @@ msgid "Toggle theme (current: {label})"
 msgstr "تبديل المظهر (الحالي: {label})"
 
 #. placeholder {0}: newToken.info.name
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:190
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:202
 msgid "Token created: {0}"
 msgstr "تم إنشاء الرمز: {0}"
 
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:400
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:412
 msgid "Token Name"
 msgstr "اسم الرمز"
 
@@ -4929,15 +4988,15 @@ msgstr "اسم الرمز"
 msgid "Tools → Export"
 msgstr "الأدوات > التصدير"
 
-#: packages/admin/src/components/ContentTypeEditor.tsx:75
+#: packages/admin/src/components/ContentTypeEditor.tsx:68
 msgid "Track content history"
 msgstr "تتبع تاريخ المحتوى"
 
-#: packages/admin/src/components/ContentEditor.tsx:984
+#: packages/admin/src/components/ContentEditor.tsx:980
 msgid "Translate"
 msgstr "ترجمة"
 
-#: packages/admin/src/components/ContentEditor.tsx:942
+#: packages/admin/src/components/ContentEditor.tsx:938
 msgid "Translations"
 msgstr "الترجمات"
 
@@ -4946,18 +5005,18 @@ msgid "trash"
 msgstr "سلة المحذوفات"
 
 #: packages/admin/src/components/comments/CommentDetail.tsx:170
-#: packages/admin/src/components/comments/CommentInbox.tsx:223
-#: packages/admin/src/components/comments/CommentInbox.tsx:264
-#: packages/admin/src/components/comments/CommentInbox.tsx:520
-#: packages/admin/src/components/ContentList.tsx:173
+#: packages/admin/src/components/comments/CommentInbox.tsx:216
+#: packages/admin/src/components/comments/CommentInbox.tsx:257
+#: packages/admin/src/components/comments/CommentInbox.tsx:513
+#: packages/admin/src/components/ContentList.tsx:192
 msgid "Trash"
 msgstr "سلة المحذوفات"
 
-#: packages/admin/src/components/ContentList.tsx:317
+#: packages/admin/src/components/ContentList.tsx:366
 msgid "Trash is empty"
 msgstr "سلة المحذوفات فارغة"
 
-#: packages/admin/src/components/comments/CommentInbox.tsx:556
+#: packages/admin/src/components/comments/CommentInbox.tsx:549
 msgid "Trash is empty."
 msgstr "سلة المحذوفات فارغة."
 
@@ -4993,11 +5052,11 @@ msgid "Try Another URL"
 msgstr "جرّب رابطًا آخر"
 
 #: packages/admin/src/components/ThemeMarketplaceBrowse.tsx:250
-#: packages/admin/src/components/ThemeMarketplaceDetail.tsx:145
+#: packages/admin/src/components/ThemeMarketplaceDetail.tsx:143
 msgid "Try with my data"
 msgstr "جرّب مع بياناتي"
 
-#: packages/admin/src/components/settings/SocialSettings.tsx:128
+#: packages/admin/src/components/settings/SocialSettings.tsx:129
 msgid "Twitter"
 msgstr "تويتر"
 
@@ -5016,12 +5075,12 @@ msgstr "عدم تطابق النوع ({0})"
 msgid "Unable to reach marketplace"
 msgstr "تعذّر الوصول إلى السوق"
 
-#: packages/admin/src/components/ContentEditor.tsx:1905
-#: packages/admin/src/components/ContentEditor.tsx:1920
+#: packages/admin/src/components/ContentEditor.tsx:1906
+#: packages/admin/src/components/ContentEditor.tsx:1921
 msgid "Unassigned"
 msgstr "لم يتم التعيين"
 
-#: packages/admin/src/components/MarketplacePluginDetail.tsx:190
+#: packages/admin/src/components/MarketplacePluginDetail.tsx:181
 #: packages/admin/src/components/PluginManager.tsx:484
 #: packages/admin/src/components/PluginManager.tsx:578
 msgid "Uninstall"
@@ -5043,7 +5102,7 @@ msgstr "جاري إلغاء التثبيت..."
 msgid "Unique"
 msgstr "فريد"
 
-#: packages/admin/src/components/ContentTypeEditor.tsx:105
+#: packages/admin/src/components/ContentTypeEditor.tsx:98
 msgid "Unique identifier (ULID)"
 msgstr "معرف فريد (ULID)"
 
@@ -5067,7 +5126,7 @@ msgstr "إلغاء تثبيت نسبة العرض إلى الارتفاع"
 msgid "Unnamed passkey"
 msgstr "مفتاح مرور بدون اسم"
 
-#: packages/admin/src/components/ContentEditor.tsx:659
+#: packages/admin/src/components/ContentEditor.tsx:655
 msgid "Unpublish"
 msgstr "إلغاء النشر"
 
@@ -5075,7 +5134,7 @@ msgstr "إلغاء النشر"
 msgid "Unregistered Content Tables Found"
 msgstr "تم العثور على جداول محتوى غير مسجلة"
 
-#: packages/admin/src/components/ContentEditor.tsx:806
+#: packages/admin/src/components/ContentEditor.tsx:802
 msgid "Unschedule"
 msgstr "إلغاء الجدولة"
 
@@ -5083,7 +5142,7 @@ msgstr "إلغاء الجدولة"
 msgid "Untitled"
 msgstr "بدون عنوان"
 
-#: packages/admin/src/components/ContentEditor.tsx:1732
+#: packages/admin/src/components/ContentEditor.tsx:1733
 msgid "Up"
 msgstr "أعلى"
 
@@ -5100,6 +5159,10 @@ msgstr "تحديث الحقل"
 msgid "Update settings for {0}"
 msgstr "تحديث الإعدادات لـ {0}"
 
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:92
+msgid "Update site settings"
+msgstr ""
+
 #. placeholder {0}: taxonomyDef.labelSingular?.toLowerCase() || "term"
 #: packages/admin/src/components/TaxonomyManager.tsx:218
 msgid "Update the {0} details"
@@ -5114,12 +5177,12 @@ msgstr "تحديث قاعدة التحويل هذه."
 msgid "Update to v{0}"
 msgstr "التحديث إلى الإصدار {0}"
 
-#: packages/admin/src/components/ContentTypeEditor.tsx:127
+#: packages/admin/src/components/ContentTypeEditor.tsx:120
 msgid "Updated At"
 msgstr "تم التحديث في"
 
 #. placeholder {0}: new Date(item.updatedAt).toLocaleString()
-#: packages/admin/src/components/ContentEditor.tsx:863
+#: packages/admin/src/components/ContentEditor.tsx:859
 msgid "Updated: {0}"
 msgstr "تم التحديث: {0}"
 
@@ -5144,7 +5207,7 @@ msgstr "رفع ملف تصدير"
 msgid "Upload an image to get started"
 msgstr "ارفع صورة للبدء"
 
-#: packages/admin/src/components/settings/ApiTokenSettings.tsx:70
+#: packages/admin/src/components/settings/ApiTokenSettings.tsx:62
 msgid "Upload and delete media"
 msgstr "رفع وحذف الوسائط"
 
@@ -5216,7 +5279,7 @@ msgstr "جاري الرفع..."
 msgid "URL"
 msgstr "الرابط"
 
-#: packages/admin/src/components/ContentTypeEditor.tsx:111
+#: packages/admin/src/components/ContentTypeEditor.tsx:104
 #: packages/admin/src/components/FieldEditor.tsx:225
 msgid "URL-friendly identifier"
 msgstr "معرف مناسب للروابط"
@@ -5233,7 +5296,7 @@ msgstr "استخدم [param] أو [...rest] في الروابط النسبية �
 msgid "Use your device's biometric authentication, security key, or PIN to sign in."
 msgstr "استخدم المصادقة الحيوية لجهازك أو مفتاح الأمان أو رمز PIN لتسجيل الدخول."
 
-#: packages/admin/src/components/LoginPage.tsx:351
+#: packages/admin/src/components/LoginPage.tsx:326
 msgid "Use your registered passkey to sign in securely."
 msgstr "قم باستخدام مفتاح المرور المسجل الخاص بك لتسجيل الدخول بشكل آمن."
 
@@ -5274,7 +5337,7 @@ msgid "User not found"
 msgstr "لم يتم العثور على المستخدم"
 
 #: packages/admin/src/components/AdminCommandPalette.tsx:211
-#: packages/admin/src/components/Sidebar.tsx:206
+#: packages/admin/src/components/Sidebar.tsx:211
 msgid "Users"
 msgstr "المستخدمين"
 
@@ -5305,7 +5368,7 @@ msgstr "جاري التحقق من رابطك..."
 msgid "Verifying..."
 msgstr "جاري التحقق..."
 
-#: packages/admin/src/components/MarketplacePluginDetail.tsx:331
+#: packages/admin/src/components/MarketplacePluginDetail.tsx:322
 msgid "Version"
 msgstr "الإصدار"
 
@@ -5321,7 +5384,7 @@ msgstr "عرض في السوق"
 msgid "View mode"
 msgstr "وضع العرض"
 
-#: packages/admin/src/components/ContentList.tsx:401
+#: packages/admin/src/components/ContentList.tsx:516
 msgid "View published {title}"
 msgstr "عرض {title} المنشور"
 
@@ -5351,7 +5414,7 @@ msgstr "تعذّر الاتصال بموقع WordPress على {0}. قد يعني
 msgid "We'll check what import options are available for your site."
 msgstr "سنقوم بالتحقق من خيارات الاستيراد المتاحة لموقعك."
 
-#: packages/admin/src/components/LoginPage.tsx:352
+#: packages/admin/src/components/LoginPage.tsx:323
 msgid "We'll send you a link to sign in without a password."
 msgstr "سنقوم بإرسال رابط إليك لتسجيل الدخول بدون كلمة مرور."
 
@@ -5368,7 +5431,7 @@ msgstr ""
 msgid "WebAuthn is not supported in this browser"
 msgstr "WebAuthn غير مدعوم في هذا المتصفح"
 
-#: packages/admin/src/components/MarketplacePluginDetail.tsx:236
+#: packages/admin/src/components/MarketplacePluginDetail.tsx:227
 msgid "Website"
 msgstr "الموقع الإلكتروني"
 
@@ -5388,15 +5451,15 @@ msgstr "ما يحدث عند الاستيراد:"
 msgid "What will happen when you import"
 msgstr "ما سيحدث عند الاستيراد"
 
-#: packages/admin/src/components/ContentTypeEditor.tsx:123
+#: packages/admin/src/components/ContentTypeEditor.tsx:116
 msgid "When the entry was created"
 msgstr "متى تم إنشاء المُدخل"
 
-#: packages/admin/src/components/ContentTypeEditor.tsx:129
+#: packages/admin/src/components/ContentTypeEditor.tsx:122
 msgid "When the entry was last modified"
 msgstr "متى تم تحديث المُدخل في آخر مرة"
 
-#: packages/admin/src/components/ContentTypeEditor.tsx:135
+#: packages/admin/src/components/ContentTypeEditor.tsx:128
 msgid "When the entry was published"
 msgstr "متى تم نشر المُدخل"
 
@@ -5410,7 +5473,7 @@ msgstr "عدد صحيح"
 
 #: packages/admin/src/components/AdminCommandPalette.tsx:169
 #: packages/admin/src/components/PluginManager.tsx:333
-#: packages/admin/src/components/Sidebar.tsx:192
+#: packages/admin/src/components/Sidebar.tsx:197
 msgid "Widgets"
 msgstr "عناصر واجهة المستخدم"
 
@@ -5488,7 +5551,7 @@ msgstr "سيتم توجيهك إلى WordPress لتفويض الاتصال."
 msgid "You'll be signing up as"
 msgstr "ستقوم بالتسجيل بوصفك"
 
-#: packages/admin/src/components/SetupWizard.tsx:499
+#: packages/admin/src/components/SetupWizard.tsx:577
 msgid "You're signed in via Cloudflare Access"
 msgstr "تم تسجيل دخولك عبر Cloudflare Access"
 
@@ -5497,7 +5560,7 @@ msgid "you@company.com"
 msgstr "you@company.com"
 
 #: packages/admin/src/components/auth/PasskeyLogin.tsx:336
-#: packages/admin/src/components/SetupWizard.tsx:226
+#: packages/admin/src/components/SetupWizard.tsx:230
 msgid "you@example.com"
 msgstr "you@example.com"
 
@@ -5515,27 +5578,27 @@ msgstr "متصفحك لا يدعم مفاتيح المرور. يرجى استخ�
 msgid "Your device doesn't support the required security features."
 msgstr "جهازك لا يدعم ميزات الأمن المطلوبة."
 
-#: packages/admin/src/components/SetupWizard.tsx:222
+#: packages/admin/src/components/SetupWizard.tsx:226
 msgid "Your Email"
 msgstr "بريدك الإلكتروني"
 
-#: packages/admin/src/components/settings/SocialSettings.tsx:143
+#: packages/admin/src/components/settings/SocialSettings.tsx:144
 msgid "Your Facebook page or profile username"
 msgstr "اسم مستخدم صفحة أو ملف Facebook الشخصي"
 
-#: packages/admin/src/components/settings/SocialSettings.tsx:137
+#: packages/admin/src/components/settings/SocialSettings.tsx:138
 msgid "Your GitHub username"
 msgstr "اسم مستخدم GitHub الخاص بك"
 
-#: packages/admin/src/components/settings/SocialSettings.tsx:149
+#: packages/admin/src/components/settings/SocialSettings.tsx:150
 msgid "Your Instagram username"
 msgstr "اسم مستخدم Instagram الخاص بك"
 
-#: packages/admin/src/components/settings/SocialSettings.tsx:155
+#: packages/admin/src/components/settings/SocialSettings.tsx:156
 msgid "Your LinkedIn profile username"
 msgstr "اسم مستخدم ملف LinkedIn الشخصي"
 
-#: packages/admin/src/components/SetupWizard.tsx:234
+#: packages/admin/src/components/SetupWizard.tsx:238
 msgid "Your Name"
 msgstr "اسمك"
 
@@ -5547,7 +5610,7 @@ msgstr "اسمك (اختياري)"
 msgid "Your Role"
 msgstr "دورك"
 
-#: packages/admin/src/components/settings/SocialSettings.tsx:131
+#: packages/admin/src/components/settings/SocialSettings.tsx:132
 msgid "Your Twitter/X handle (e.g., @username)"
 msgstr "معرّف Twitter/X الخاص بك (مثال: @username)"
 
@@ -5556,10 +5619,10 @@ msgstr "معرّف Twitter/X الخاص بك (مثال: @username)"
 msgid "Your WordPress export contains {0} media files."
 msgstr "تصدير WordPress الخاص بك يحتوي على {0} ملف وسائط."
 
-#: packages/admin/src/components/settings/SocialSettings.tsx:161
+#: packages/admin/src/components/settings/SocialSettings.tsx:162
 msgid "Your YouTube channel ID or handle"
 msgstr "معرف قناة YouTube أو المعرّف الخاص بك"
 
-#: packages/admin/src/components/settings/SocialSettings.tsx:158
+#: packages/admin/src/components/settings/SocialSettings.tsx:159
 msgid "YouTube"
 msgstr "يوتيوب"
