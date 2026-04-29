@@ -1,4 +1,5 @@
 import type { ArbitraryTypedObject } from "@portabletext/types";
+
 import type { ContentfulEntry } from "../types.js";
 
 export function transformCodeBlock(entry: ContentfulEntry, key: string): ArbitraryTypedObject {

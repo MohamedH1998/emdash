@@ -21,7 +21,12 @@
  */
 
 // Re-export our own types + canonical types for consumer convenience
-export type { ContentfulIncludes, ContentfulEntry, ContentfulAsset, ConvertOptions } from "./types.js";
+export type {
+	ContentfulIncludes,
+	ContentfulEntry,
+	ContentfulAsset,
+	ConvertOptions,
+} from "./types.js";
 export type { Document, Block, Inline, Text } from "@contentful/rich-text-types";
 export type {
 	PortableTextBlock,
@@ -38,6 +43,7 @@ import type {
 	PortableTextMarkDefinition,
 	PortableTextSpan,
 } from "@portabletext/types";
+
 import { transformCodeBlock } from "./blocks/code-block.js";
 import { transformEmbeddedHtml } from "./blocks/embedded-html.js";
 import { transformImageBlock } from "./blocks/image-block.js";
@@ -66,7 +72,6 @@ function createKeyGenerator(): () => string {
 	let n = 0;
 	return () => `k${(n++).toString(36)}`;
 }
-
 
 // ── Contentful node type → PT style mapping ─────────────────────────────────
 
@@ -263,9 +268,7 @@ function convertList(
 				});
 			} else if (child.nodeType === BLOCKS.UL_LIST || child.nodeType === BLOCKS.OL_LIST) {
 				const nestedType = child.nodeType === BLOCKS.UL_LIST ? "bullet" : "number";
-				blocks.push(
-					...convertList(child, nestedType, includes, options, generateKey, level + 1),
-				);
+				blocks.push(...convertList(child, nestedType, includes, options, generateKey, level + 1));
 			} else {
 				// List items can contain embedded entries, blockquotes, etc.
 				const converted = convertNode(child, includes, options, generateKey);

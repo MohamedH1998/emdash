@@ -1,6 +1,7 @@
 import type { ArbitraryTypedObject } from "@portabletext/types";
-import type { ContentfulEntry, ContentfulIncludes } from "../types.js";
+
 import { sanitizeUri } from "../sanitize.js";
+import type { ContentfulEntry, ContentfulIncludes } from "../types.js";
 
 export function transformImageBlock(
 	entry: ContentfulEntry,

@@ -3,10 +3,6 @@
  * One test per acceptance criterion from the PR plan.
  */
 
-import { describe, it, expect, vi, beforeEach } from "vitest";
-
-import { richTextToPortableText, buildIncludes } from "../src/index.js";
-import type { ContentfulIncludes } from "../src/index.js";
 import type { Document, Block, Inline, Text } from "@contentful/rich-text-types";
 import type {
 	PortableTextBlock,
@@ -14,6 +10,10 @@ import type {
 	PortableTextMarkDefinition,
 	ArbitraryTypedObject,
 } from "@portabletext/types";
+import { describe, it, expect, vi, beforeEach } from "vitest";
+
+import { richTextToPortableText, buildIncludes } from "../src/index.js";
+import type { ContentfulIncludes } from "../src/index.js";
 import fixture from "./fixtures/contentful-blogpost.json";
 
 // ── Test helpers ────────────────────────────────────────────────────────────
@@ -121,7 +121,9 @@ describe("Standard blocks", () => {
 		}
 
 		// Verify texts
-		const bulletTexts = bullets.map((b) => ((b.children as PortableTextSpan[])[0] as PortableTextSpan).text);
+		const bulletTexts = bullets.map(
+			(b) => ((b.children as PortableTextSpan[])[0] as PortableTextSpan).text,
+		);
 		expect(bulletTexts).toEqual(
 			expect.arrayContaining([
 				"Parse the source format",

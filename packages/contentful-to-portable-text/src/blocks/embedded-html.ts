@@ -1,4 +1,5 @@
 import type { ArbitraryTypedObject } from "@portabletext/types";
+
 import type { ContentfulEntry } from "../types.js";
 
 /** HTML is preserved verbatim — sanitization is the renderer's responsibility. */
