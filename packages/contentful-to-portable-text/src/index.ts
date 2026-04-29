@@ -390,7 +390,10 @@ function convertInlineContent(
 					});
 				}
 			}
+		} else {
+			console.warn(`[rich-text-to-pt] Unhandled inline node type: ${node.nodeType}`);
 		}
+	}
 	}
 
 	// Ensure at least one child (PT requires non-empty children array)
